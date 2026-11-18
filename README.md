@@ -1,4 +1,4 @@
-# RoughCut-Bench
+# RoughCut-Bench: A Benchmark for Automatic Video Rough-Cut with Large Vision-Language Models｜KDD 2027
 
 RoughCut-Bench is a benchmark for automatic video rough-cut. It covers two
 practical settings:
