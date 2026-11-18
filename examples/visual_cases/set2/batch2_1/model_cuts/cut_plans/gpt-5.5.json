@@ -1,0 +1,403 @@
+{
+  "entry": "batch2_1.json",
+  "tools": [
+    "get_arrange_result"
+  ],
+  "model_name_by_tool": {
+    "get_arrange_result": "gpt-5.5"
+  },
+  "arrange_input_mode": "time_desc_frame",
+  "user_prompt": "Make it around 15 seconds. Start with the cat coffee art",
+  "raw_understanding_result": {
+    "video_0": {
+      "time": "",
+      "scene/location": "In front of a Seventeen Ice vending machine or ice cream display.",
+      "video_duration": 2.51,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": "2.4",
+          "description": "The clip begins with a close view of a Seventeen Ice vending machine menu showing many colorful ice cream illustrations, then several hands enter the frame and hold up three packaged cone-shaped ice creams: a dark blue cone package<QFZM> on the left, a teal cone package<LPRV> in the center, and a burgundy-red cone package<NXKT> on the right. The people’s faces are not shown, so expressions are not identifiable; the products are held steadily in front of the bright vending machine display."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/MV_20250315_145259.mp4"
+    },
+    "video_1": {
+      "time": "",
+      "scene/location": "Polished indoor public area, likely an airport or station lobby",
+      "video_duration": 2.3,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "The clip begins with a glossy dark floor and then shows two people’s hands holding several maroon Chinese passports <QKRM> with white paper tickets or boarding passes <LZTF> inserted at the top. The hands have no visible facial expressions because faces are not shown, and the background remains an indoor polished lobby-like area."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250315_055521.mp4"
+    },
+    "video_2": {
+      "time": "",
+      "scene/location": "Indoor counter or dining area with a condiment shelf",
+      "video_duration": 2.77,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": "2.7",
+          "description": "A wooden condiment shelf and jars are visible in the background. Multiple hands, with no faces visible and no expressions identifiable, hold glass mugs: a yellow drink in a clear mug<QZRM>, a dark drink in a clear mug<VTPK>, and another amber-brown drink in a clear mug<NHLW>. The mugs move toward the center of the counter and touch together in a toast."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_134505.mp4"
+    },
+    "video_3": {
+      "time": "Daytime",
+      "scene/location": "Covered red wooden pavilion at a snowy temple or shrine courtyard",
+      "video_duration": 3.0,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": "2.9",
+          "description": "From a covered red wooden pavilion, the camera looks out over a snowy temple courtyard with people below. Two hands lift and hold beige rectangular printed paper slips with dense black characters: the left paper slip <QZMT> is held from the lower left, and the right paper slip <LPRK> is held from the right side. The people visible in the background have no clear facial expressions due to distance."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_150304.mp4"
+    },
+    "video_4": {
+      "time": "",
+      "scene/location": "Indoor wooden tabletop against a plain wall",
+      "video_duration": 3.9,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": "3.8",
+          "description": "The clip begins with a mostly empty wooden tabletop and plain wall, then three glass drinks with cat-shaped foam art are shown on white saucers. The left drink has a smiling cat face with pointed ears <QFZM>, the center drink has a rounder cat face with darker markings <NRVP>, and the right drink has a pale cat face with pointed ears <LKTW>. Each saucer holds a small metal spoon <MXRJ>. No people are visible, and the drinks remain displayed in a neat row."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_170056.mp4"
+    },
+    "video_5": {
+      "time": "",
+      "scene/location": "Indoor restaurant or dining table setting.",
+      "video_duration": 3.13,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": "3.0",
+          "description": "On an indoor dining table, a black plate of chopped cabbage sits in the foreground with chopsticks and a small white plate nearby. Diners' hands bring together a small beige ceramic cup filled with green tea <QZRM>, a clear glass of orange iced drink <VTLK>, and a clear glass of pale foamy drink <NXJP> for a toast. A person in a white sweater is partially visible at the side, but no face or expression is visible."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_202917.mp4"
+    },
+    "video_6": {
+      "time": "",
+      "scene/location": "Indoor barbecue restaurant table",
+      "video_duration": 2.27,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "A barbecue restaurant table is shown with meat grilling on a round tabletop grill. A partially visible diner in a red jacket has no obvious expression visible beyond the lower face and holds a tall yellow beer glass labeled SUPER DRY<QMRV> and a foamy amber beer glass<LXPN>, while another hand raises a tall orange iced drink<TZAQ>. The three glasses move together and clink over the table, with side dishes and plates nearby."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250318_142943.mp4"
+    }
+  },
+  "arrange_keyframe_limit_info": {
+    "enabled": false,
+    "model_name": "gpt-5.5",
+    "max_keyframes": 120,
+    "total_segments": 7,
+    "selected_segments": 7,
+    "dropped_segments": 0,
+    "selected_by_video": {
+      "video_0": [
+        {
+          "video_id": "video_0",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": 2.4
+        }
+      ],
+      "video_1": [
+        {
+          "video_id": "video_1",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ],
+      "video_2": [
+        {
+          "video_id": "video_2",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": 2.7
+        }
+      ],
+      "video_3": [
+        {
+          "video_id": "video_3",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": 2.9
+        }
+      ],
+      "video_4": [
+        {
+          "video_id": "video_4",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": 3.8
+        }
+      ],
+      "video_5": [
+        {
+          "video_id": "video_5",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": 3.0
+        }
+      ],
+      "video_6": [
+        {
+          "video_id": "video_6",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ]
+    },
+    "dropped_by_video": {}
+  },
+  "get_arrange_result": {
+    "model_name": "gpt-5.5",
+    "arrange_input_mode": "time_desc_frame",
+    "gemini_expected_duration": null,
+    "final_duration": 15.0,
+    "predict_sort_answer": [
+      "video_4",
+      "video_1",
+      "video_0",
+      "video_3",
+      "video_5",
+      "video_6",
+      "video_2"
+    ],
+    "arrange_result": {
+      "tag": "life vlog-travel and food",
+      "theme": "A short travel-and-food montage that opens with cute cat coffee art, then moves through passports, snacks, a snowy shrine visit, and cheerful drink toasts.",
+      "sort": {
+        "analysis": "The user explicitly requested starting with the cat coffee art, so video_4 is placed first. The remaining clips have no precise reliable timestamps, so they are ordered as a light travel day: departure documents, quick snack choice, snowy shrine visit, then visually similar indoor food and toast scenes grouped together to avoid scene-crossing.",
+        "result": [
+          "video_4",
+          "video_1",
+          "video_0",
+          "video_3",
+          "video_5",
+          "video_6",
+          "video_2"
+        ]
+      },
+      "storyline": "The video begins with a charming cafe-style cat coffee display, then shows the trip beginning with passports, a fun ice cream snack moment, a snowy temple visit with paper slips, and ends with a sequence of warm restaurant toasts among friends.",
+      "arrange_results": [
+        {
+          "video_id": "video_4",
+          "summary": "Three drinks with cute cat-shaped foam art are displayed neatly on a wooden tabletop.",
+          "visual_redundancy_analysis": "Only one visual segment is present, and it contains the requested opening cat coffee art, so it is fully retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.8,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": 3.8
+        },
+        {
+          "video_id": "video_1",
+          "summary": "Hands hold Chinese passports with tickets in a polished indoor lobby, suggesting the start of a trip.",
+          "visual_redundancy_analysis": "Only one visual segment is present with clear travel-document information, so it is retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        },
+        {
+          "video_id": "video_0",
+          "summary": "Three packaged cone ice creams are held up in front of a colorful Seventeen Ice vending display.",
+          "visual_redundancy_analysis": "Only one visual segment is present and it clearly shows the snack selection moment, so it is retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.4,
+              "duration": 2.4
+            }
+          ],
+          "arrange_duration": 2.4
+        },
+        {
+          "video_id": "video_3",
+          "summary": "Hands hold printed paper slips inside a red pavilion overlooking a snowy temple courtyard.",
+          "visual_redundancy_analysis": "Only one visual segment is present, with a distinct shrine setting and paper-slip action, so it is retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.9,
+              "duration": 2.9
+            }
+          ],
+          "arrange_duration": 2.9
+        },
+        {
+          "video_id": "video_5",
+          "summary": "Diners clink a tea cup and cold drinks together over a restaurant table with food.",
+          "visual_redundancy_analysis": "Only one visual segment is present and it captures a clear dining toast, so it is retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.0,
+              "duration": 3.0
+            }
+          ],
+          "arrange_duration": 3.0
+        },
+        {
+          "video_id": "video_6",
+          "summary": "At a barbecue restaurant table, three drinks clink together beside a tabletop grill.",
+          "visual_redundancy_analysis": "Only one visual segment is present, and it has a distinct barbecue setting and toast action, so it is retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        },
+        {
+          "video_id": "video_2",
+          "summary": "Three glass mugs of drinks are brought together for a toast near a condiment shelf.",
+          "visual_redundancy_analysis": "Only one visual segment is present and it shows another clear group toast in a different dining environment, so it is retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.7,
+              "duration": 2.7
+            }
+          ],
+          "arrange_duration": 2.7
+        }
+      ],
+      "duration_adjustment": {
+        "target_duration": 15.0,
+        "current_duration": 19.2,
+        "scale_ratio": 0.781,
+        "analysis": "The current selected material is longer than the requested approximate 15 seconds, so each retained segment is proportionally center-cropped to preserve the main subject and action. The adjusted total reaches 15.0 seconds.",
+        "adjusted_arrange_results": [
+          {
+            "video_id": "video_4",
+            "adjusted_segments": [
+              {
+                "start_time": 0.4,
+                "end_time": 3.4,
+                "duration": 3.0
+              }
+            ],
+            "adjusted_duration": 3.0
+          },
+          {
+            "video_id": "video_1",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.0,
+                "duration": 1.7
+              }
+            ],
+            "adjusted_duration": 1.7
+          },
+          {
+            "video_id": "video_0",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.2,
+                "duration": 1.9
+              }
+            ],
+            "adjusted_duration": 1.9
+          },
+          {
+            "video_id": "video_3",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.6,
+                "duration": 2.3
+              }
+            ],
+            "adjusted_duration": 2.3
+          },
+          {
+            "video_id": "video_5",
+            "adjusted_segments": [
+              {
+                "start_time": 0.4,
+                "end_time": 2.7,
+                "duration": 2.3
+              }
+            ],
+            "adjusted_duration": 2.3
+          },
+          {
+            "video_id": "video_6",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.0,
+                "duration": 1.7
+              }
+            ],
+            "adjusted_duration": 1.7
+          },
+          {
+            "video_id": "video_2",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.4,
+                "duration": 2.1
+              }
+            ],
+            "adjusted_duration": 2.1
+          }
+        ],
+        "adjusted_total_duration": 15.0
+      }
+    }
+  }
+}

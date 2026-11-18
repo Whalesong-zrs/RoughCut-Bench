@@ -1,0 +1,426 @@
+{
+  "entry": "batch2_1.json",
+  "tools": [
+    "get_arrange_result"
+  ],
+  "model_name_by_tool": {
+    "get_arrange_result": "gpt-5.4"
+  },
+  "arrange_input_mode": "time_desc_frame",
+  "user_prompt": "Make it around 15 seconds. Start with the cat coffee art",
+  "raw_understanding_result": {
+    "video_0": {
+      "time": "",
+      "scene/location": "In front of an ice cream vending machine",
+      "video_duration": 2.51,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 0.8,
+          "duration": "0.8",
+          "description": "A brightly lit ice cream vending machine menu fills the frame, showing multiple illustrated ice cream options with prices and Japanese text. No people are visible yet, and the shot is mostly static."
+        },
+        {
+          "start_time": 1.6,
+          "end_time": 2.4,
+          "duration": "0.8",
+          "description": "Three hands hold up three tube-shaped frozen treats in front of the vending machine: a dark blue package<QZMT>, a light blue package<HKRV>, and a reddish-brown package<PLSN>. The people’s faces are not visible, so no facial expression can be identified. Compared with the previous highlight, the main change is the appearance of the held products and hands in the foreground, while the vending machine remains the same background."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/MV_20250315_145259.mp4"
+    },
+    "video_1": {
+      "time": "",
+      "scene/location": "An indoor terminal or airport-like hall with a glossy tiled floor.",
+      "video_duration": 2.3,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "At first the camera points at a glossy dark-and-light tiled indoor floor with reflected ceiling lights and no people visible. Then two people bring several dark red passports<QZMT> with white boarding passes<RLVK> inserted into the frame and hold them together in front of the camera. Only their hands and sleeves are visible; no facial expression can be observed. The passports and tickets are the main operated objects, and the background remains a spacious indoor hall."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250315_055521.mp4"
+    },
+    "video_2": {
+      "time": "",
+      "scene/location": "Indoor restaurant or bar counter with a wooden condiment box and seasoning containers.",
+      "video_duration": 2.77,
+      "visual_segments": [
+        {
+          "start_time": 0.9,
+          "end_time": 2.7,
+          "duration": "1.8",
+          "description": "Hands bring three iced drinks together on the counter: a transparent amber drink in a glass mug<QZMT> in the foreground, a dark brown drink in a handled glass<HLRK> on the left, and another amber drink in a glass<VPNS> at the back. The people’s faces are not visible. The background remains a condiment shelf and jars, while the main change is the glasses moving inward until they meet in a toast-like arrangement."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_134505.mp4"
+    },
+    "video_3": {
+      "time": "daytime",
+      "scene/location": "Traditional temple terrace overlooking a temple courtyard and surrounding buildings.",
+      "video_duration": 3.0,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": "2.9",
+          "description": "A daytime view from a red-pillared temple terrace shows a courtyard with visitors and a green-roofed pavilion, with a larger temple structure in the distance. Two people then lift and hold rectangular beige printed fortune slips<QZMT> toward the camera, making them the main focus against the temple background. The people’s faces are not clearly visible, so no obvious facial expression can be identified."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_150304.mp4"
+    },
+    "video_4": {
+      "time": "",
+      "scene/location": "Indoor tabletop setting, likely a cafe or dining surface.",
+      "video_duration": 3.9,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": "3.8",
+          "description": "A wooden tabletop and plain wall are shown first, then three clear glasses of latte or milk-based drinks come into view, each topped with thick white foam shaped into a detailed animal face. The left drink features a smiling dog-like foam face <QJRM>, the center drink shows a rounder cat-like foam face <VTXP>, and the right drink shows another cat-like foam face <LNSK>. Each drink sits on a white saucer with a metal spoon <HZUD>. No people are visible, and the clip ends with all three drinks fully centered and clearly displayed."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_170056.mp4"
+    },
+    "video_5": {
+      "time": "",
+      "scene/location": "Indoor restaurant or dining room table.",
+      "video_duration": 3.13,
+      "visual_segments": [
+        {
+          "start_time": 1.5,
+          "end_time": 3.0,
+          "duration": "1.5",
+          "description": "Three hands hold drinks together above a dining table: a small light-colored ceramic cup with a green beverage<POPS>, a tall clear glass of orange drink with ice<ZKRM>, and a tall clear glass with a white foamy drink<HLQV>. The people have no clearly visible facial expressions because only their hands and sleeves are shown. In the foreground, a plate of lettuce salad and chopsticks remain on the table in the background."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_202917.mp4"
+    },
+    "video_6": {
+      "time": "",
+      "scene/location": "Indoor barbecue restaurant table with a grill and side dishes.",
+      "video_duration": 2.27,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "At a barbecue restaurant table, a person in a red jacket with a neutral expression sits behind a round grill with sliced meat cooking on it. On the table are metal tongs, a small white cup, a wooden platter of side dishes, and several drinks being handled by diners: a tall yellow beer-like drink with ice<ZQMP>, a shorter amber beer with foam<RLTX>, and a tall orange iced drink<KVSN>. The hands lift these glasses inward over the grill area to complete a toast, with the food and table setting visible in the background."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250318_142943.mp4"
+    }
+  },
+  "arrange_keyframe_limit_info": {
+    "enabled": false,
+    "model_name": "gpt-5.4",
+    "max_keyframes": 120,
+    "total_segments": 8,
+    "selected_segments": 8,
+    "dropped_segments": 0,
+    "selected_by_video": {
+      "video_0": [
+        {
+          "video_id": "video_0",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 0.8,
+          "duration": 0.8
+        },
+        {
+          "video_id": "video_0",
+          "segment_index": 1,
+          "start_time": 1.6,
+          "end_time": 2.4,
+          "duration": 0.8
+        }
+      ],
+      "video_1": [
+        {
+          "video_id": "video_1",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ],
+      "video_2": [
+        {
+          "video_id": "video_2",
+          "segment_index": 0,
+          "start_time": 0.9,
+          "end_time": 2.7,
+          "duration": 1.8
+        }
+      ],
+      "video_3": [
+        {
+          "video_id": "video_3",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": 2.9
+        }
+      ],
+      "video_4": [
+        {
+          "video_id": "video_4",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": 3.8
+        }
+      ],
+      "video_5": [
+        {
+          "video_id": "video_5",
+          "segment_index": 0,
+          "start_time": 1.5,
+          "end_time": 3.0,
+          "duration": 1.5
+        }
+      ],
+      "video_6": [
+        {
+          "video_id": "video_6",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ]
+    },
+    "dropped_by_video": {}
+  },
+  "get_arrange_result": {
+    "model_name": "gpt-5.4",
+    "arrange_input_mode": "time_desc_frame",
+    "gemini_expected_duration": null,
+    "final_duration": 14.9,
+    "predict_sort_answer": [
+      "video_4",
+      "video_1",
+      "video_3",
+      "video_2",
+      "video_5",
+      "video_6",
+      "video_0"
+    ],
+    "arrange_result": {
+      "tag": "lifestyle vlog-travel food",
+      "theme": "A playful travel-day montage that begins with cute cat latte art and follows a series of shared moments from transit and sightseeing to drinks, food, and ice cream treats.",
+      "sort": {
+        "analysis": "User instruction is prioritized, so the cat coffee art clip is placed first. For the remaining videos, since most time metadata is missing or non-specific, ordering is based on a coherent travel-day story and grouping similar scenes together: transit first, sightseeing next, then indoor food-and-drink moments, ending with the ice cream vending machine as a light closing beat.",
+        "result": [
+          "video_4",
+          "video_1",
+          "video_3",
+          "video_2",
+          "video_5",
+          "video_6",
+          "video_0"
+        ]
+      },
+      "storyline": "The video opens with cute cat-themed coffee art as an attention grabber, then moves into the start of the trip at the terminal, shifts to a temple sightseeing moment, and transitions into a sequence of indoor dining toasts and barbecue meal scenes before ending on a fun ice cream vending machine treat finale.",
+      "arrange_results": [
+        {
+          "video_id": "video_4",
+          "summary": "Three latte drinks topped with detailed animal foam art are presented on a cafe table.",
+          "visual_redundancy_analysis": "Only one visual segment is available and it contains the full reveal of the coffee art, so it is kept.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.8,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": "3.8"
+        },
+        {
+          "video_id": "video_1",
+          "summary": "Several passports and boarding passes are held up in an airport-like indoor hall.",
+          "visual_redundancy_analysis": "Only one visual segment is available and it includes both the location context and the passports, so it is kept.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": "2.2"
+        },
+        {
+          "video_id": "video_3",
+          "summary": "Fortune slips are held up on a temple terrace overlooking a traditional courtyard.",
+          "visual_redundancy_analysis": "Only one visual segment is available and it captures both the scenic temple setting and the fortune slips, so it is kept.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.9,
+              "duration": 2.9
+            }
+          ],
+          "arrange_duration": "2.9"
+        },
+        {
+          "video_id": "video_2",
+          "summary": "Three iced drinks are brought together in a toast at a restaurant counter.",
+          "visual_redundancy_analysis": "Only one visual segment is available and it contains the full drink-toast action, so it is kept.",
+          "segments": [
+            {
+              "start_time": 0.9,
+              "end_time": 2.7,
+              "duration": 1.8
+            }
+          ],
+          "arrange_duration": "1.8"
+        },
+        {
+          "video_id": "video_5",
+          "summary": "Three different drinks are raised together over a dining table with salad and chopsticks.",
+          "visual_redundancy_analysis": "Only one visual segment is available and it shows a distinct dining-table toast scene, so it is kept.",
+          "segments": [
+            {
+              "start_time": 1.5,
+              "end_time": 3.0,
+              "duration": 1.5
+            }
+          ],
+          "arrange_duration": "1.5"
+        },
+        {
+          "video_id": "video_6",
+          "summary": "Dinors toast drinks over a tabletop grill at a barbecue restaurant.",
+          "visual_redundancy_analysis": "Only one visual segment is available and it includes the grill, food, people, and toast action, so it is kept.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": "2.2"
+        },
+        {
+          "video_id": "video_0",
+          "summary": "An ice cream vending machine menu is shown before three frozen treats are held up in front of it.",
+          "visual_redundancy_analysis": "Both visual segments are kept because the first establishes the vending machine selections and the second introduces the purchased treats; the subject changes clearly, so they are not redundant.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 0.8,
+              "duration": 0.8
+            },
+            {
+              "start_time": 1.6,
+              "end_time": 2.4,
+              "duration": 0.8
+            }
+          ],
+          "arrange_duration": "1.6"
+        }
+      ],
+      "duration_adjustment": {
+        "target_duration": 15.0,
+        "current_duration": 16.0,
+        "scale_ratio": 0.938,
+        "analysis": "The current arranged duration is slightly above the target, so all segments are proportionally shortened by center-cropping each segment. This preserves the main subject matter of each clip while bringing the final montage to about 15 seconds.",
+        "adjusted_arrange_results": [
+          {
+            "video_id": "video_4",
+            "adjusted_segments": [
+              {
+                "start_time": 0.1,
+                "end_time": 3.7,
+                "duration": 3.6
+              }
+            ],
+            "adjusted_duration": 3.6
+          },
+          {
+            "video_id": "video_1",
+            "adjusted_segments": [
+              {
+                "start_time": 0.1,
+                "end_time": 2.1,
+                "duration": 2.0
+              }
+            ],
+            "adjusted_duration": 2.0
+          },
+          {
+            "video_id": "video_3",
+            "adjusted_segments": [
+              {
+                "start_time": 0.1,
+                "end_time": 2.8,
+                "duration": 2.7
+              }
+            ],
+            "adjusted_duration": 2.7
+          },
+          {
+            "video_id": "video_2",
+            "adjusted_segments": [
+              {
+                "start_time": 1.0,
+                "end_time": 2.6,
+                "duration": 1.7
+              }
+            ],
+            "adjusted_duration": 1.7
+          },
+          {
+            "video_id": "video_5",
+            "adjusted_segments": [
+              {
+                "start_time": 1.5,
+                "end_time": 2.9,
+                "duration": 1.4
+              }
+            ],
+            "adjusted_duration": 1.4
+          },
+          {
+            "video_id": "video_6",
+            "adjusted_segments": [
+              {
+                "start_time": 0.1,
+                "end_time": 2.1,
+                "duration": 2.0
+              }
+            ],
+            "adjusted_duration": 2.0
+          },
+          {
+            "video_id": "video_0",
+            "adjusted_segments": [
+              {
+                "start_time": 0.0,
+                "end_time": 0.8,
+                "duration": 0.8
+              },
+              {
+                "start_time": 1.6,
+                "end_time": 2.4,
+                "duration": 0.8
+              }
+            ],
+            "adjusted_duration": 1.6
+          }
+        ],
+        "adjusted_total_duration": 15.8
+      }
+    }
+  }
+}

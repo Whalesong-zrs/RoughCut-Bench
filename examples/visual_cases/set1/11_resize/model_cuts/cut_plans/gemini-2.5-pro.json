@@ -1,0 +1,1017 @@
+{
+  "entry": "11_resize.json",
+  "tools": [
+    "get_arrange_result"
+  ],
+  "model_name_by_tool": {
+    "get_arrange_result": "gemini-2.5-pro"
+  },
+  "arrange_input_mode": "time_desc_frame",
+  "user_prompt": "",
+  "raw_understanding_result": {
+    "video_0": {
+      "time": "",
+      "scene/location": "Bakery/Cafe",
+      "video_duration": 5.46,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": "2.7",
+          "description": "A static shot shows a refrigerated display case filled with desserts. On the shelves, there are various pastries, including long eclairs with chocolate and white toppings, round donuts, and cakes packed in clear plastic containers. The scene is brightly lit from within the case."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/10ead089-62f0-45c2-8537-a97329f8226d.mp4"
+    },
+    "video_1": {
+      "time": "Daytime",
+      "scene/location": "Bakery or store",
+      "video_duration": 5.41,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.5,
+          "duration": "3.5",
+          "description": "A static shot shows a display of various food products on a wooden counter. In the background, there are boxes of macarons, several bags of granola with white labels, and a large loaf of brown bread wrapped in plastic film."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/1a35e9e5-65af-4cd5-a879-0bfa696239c5.mp4"
+    },
+    "video_2": {
+      "time": "Daytime",
+      "scene/location": "On a table",
+      "video_duration": 6.82,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": "2.9",
+          "description": "A static top-down shot captures a white coffee cup <XQRT> with a leaf-shaped latte art design. The cup is resting on a brown saucer on a light-colored wooden table."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/1e586d43-20dd-4475-873b-c57c41fe64c3.mp4"
+    },
+    "video_3": {
+      "time": "Daytime",
+      "scene/location": "Bakery storefront.",
+      "video_duration": 5.41,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": "2.7",
+          "description": "A static close-up shot focuses on a glass door. A large yellow sticker with the logo and name 'the SPARROW bakery NORTHWEST' is centered in the frame. Reflections of the outside environment, including a bare tree, are visible on the glass surface."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/1fb20c4c-456c-43c4-b8bb-87ab664ad8c3.mp4"
+    },
+    "video_4": {
+      "time": "Daytime",
+      "scene/location": "Sparrow Bakery storefront",
+      "video_duration": 6.17,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.6,
+          "duration": "2.6",
+          "description": "A static close-up shot of award signs for 'Sparrow Bakery' posted on a glass window. The signs indicate it was voted 'Best of Central Oregon 2023', winning 1st place for 'Best Bakery' and 'Best Breakfast Sandwich'."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/3750dfbf-3e76-4424-b281-cc88b501d75b.mp4"
+    },
+    "video_5": {
+      "time": "Daytime",
+      "scene/location": "Restaurant or cafe",
+      "video_duration": 5.36,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.6,
+          "duration": "2.6",
+          "description": "A static close-up shot focuses on a golden-brown croissant sandwich<KLPZ> on a white plate. The sandwich is filled with bacon and green arugula. In the background, a second, similar sandwich<KLPZ> is visible on another plate, slightly out of focus."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/5299f6d8-3cec-4435-8867-61190936c68e.mp4"
+    },
+    "video_6": {
+      "time": "Daytime",
+      "scene/location": "Shop or cafe",
+      "video_duration": 3.87,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": "3.8",
+          "description": "A static shot focuses on a wooden display table inside a shop. The table is arranged with various sale items, including packages of snacks, loaves of bread, yellow flowers in a bucket, and a small decorative Christmas tree. The background shows the interior of the shop."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/5762fce0-ec58-4e24-bc96-6c04386fc81f.mp4"
+    },
+    "video_7": {
+      "time": "Daytime",
+      "scene/location": "Indoors",
+      "video_duration": 7.58,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": "3.8",
+          "description": "A person's hand, partially covered by a white knitted sleeve, holds up a long, white paper menu <PWXQ> from 'SPARROW BAKERY'. The shot is a stable close-up, with the menu's text listing various sandwiches being clearly legible. The background is out of focus. The person's face is not in the frame, so they have no discernible expression."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/57cf1259-645b-4fc5-8444-958b9215d77c.mp4"
+    },
+    "video_8": {
+      "time": "",
+      "scene/location": "Coffee shop",
+      "video_duration": 2.51,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": "2.4",
+          "description": "The video starts with a static view of a coffee shop counter, featuring coffee grinders, shelves with coffee bags, and flowers. Towards the end, a person with no obvious expression appears behind the counter, and a hand holding a yellow cup <KWLZ> enters the frame from the right."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/57ef5811-005e-4759-912d-801e7fbbd7f1.mp4"
+    },
+    "video_9": {
+      "time": "Daytime",
+      "scene/location": "Indoors",
+      "video_duration": 3.61,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.5,
+          "duration": "3.5",
+          "description": "A static close-up shot of a Christmas tree. The tree is adorned with various ornaments, including a matte black bauble, a shiny red bauble, and what appears to be a croissant."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/6124d8f1-ecbe-4180-92f5-1112d82ddcdf.mp4"
+    },
+    "video_10": {
+      "time": "Daytime",
+      "scene/location": "A cafe or restaurant",
+      "video_duration": 8.62,
+      "visual_segments": [
+        {
+          "start_time": 2.9,
+          "end_time": 7.6,
+          "duration": "4.7",
+          "description": "A close-up shot shows a hand picking up a churro <PWXZ> from a white plate. The plate also contains other churros and a small bowl of chocolate sauce. The hand then dips the churro <PWXZ> into the chocolate sauce and lifts it out, now coated in chocolate."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/64e704e0-99e3-41ef-9491-2eccd25b31c1.mp4"
+    },
+    "video_11": {
+      "time": "Daytime",
+      "scene/location": "Outside a restaurant",
+      "video_duration": 6.4,
+      "visual_segments": [
+        {
+          "start_time": 1.8,
+          "end_time": 4.5,
+          "duration": "2.7",
+          "description": "A stable medium shot focuses on a wooden A-frame menu sign <KPLR>. The sign displays a white and yellow menu for 'SPARROW NORTHWEST'. The background shows people standing, but they are out of focus. There are no significant actions or changes in this static shot."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/66c37ae3-54ad-480f-9b73-0b5adcf23224.mp4"
+    },
+    "video_12": {
+      "time": "",
+      "scene/location": "On a table",
+      "video_duration": 5.96,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": "2.9",
+          "description": "A static, close-up shot shows a golden-brown, spiral-shaped pastry<POPS> on a white plate<RTYU>. In the background, there is a white mug<ASDF> containing a dark beverage, likely coffee. The items are resting on a light-colored wooden table."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/748346f1-8e3d-4c5e-83be-9d98a0f623f4.mp4"
+    },
+    "video_13": {
+      "time": "Daytime",
+      "scene/location": "Indoors, possibly a shop or cafe.",
+      "video_duration": 11.47,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": "2.9",
+          "description": "A static wide shot displays a wooden table with various gift items. In the foreground and center, there is a white box containing pastries <XQWE>, several bags of white rock-like candy <KLPZ>, a black folded cloth <VCXZ>, a small artificial pine tree <MVNA>, a yellow bag <OIJB>, a black baseball cap <RFSG>, and small wooden house models <YUTI>. Yellow flowers in a vase are on the left."
+        },
+        {
+          "start_time": 6.6,
+          "end_time": 10.4,
+          "duration": "3.8",
+          "description": "Compared to the previous shot, the camera has zoomed in and panned slightly to the right, offering a closer, more focused view of the central items. The shot highlights the details of the pastry box <XQWE>, the small wooden house model <YUTI> next to it, the yellow bag <OIJB>, and the artificial pine tree <MVNA>. The framing is tighter, showing less of the items on the far left and right."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/7bed3670-a7ad-4f29-aa7e-bfcc5033c364.mp4"
+    },
+    "video_14": {
+      "time": "Daytime",
+      "scene/location": "Outdoors, in front of a building",
+      "video_duration": 13.32,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": "3.8",
+          "description": "From a first-person perspective, the camera shows the backs of several people standing in a line. A woman with long wavy hair in a blue jacket and a man in a grey hat are in the immediate foreground. They are waiting outdoors in front of a brick building. There are no visible facial expressions and no significant actions."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/844fcf4e-4e7e-4c1a-b5d3-0415645c833a.mp4"
+    },
+    "video_15": {
+      "time": "Daytime",
+      "scene/location": "Outside a restaurant",
+      "video_duration": 4.81,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 4.7,
+          "duration": "4.7",
+          "description": "The shot is a fixed, medium close-up view of a wooden A-frame sign on a concrete surface. The sign features a yellow and white poster for 'Sparrow Northwest', which lists its dining and cocktail offerings. The frame is stable with no camera movement or action."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/857a4dd6-06ce-40f8-aad0-e1dc9dec6a65.mp4"
+    },
+    "video_16": {
+      "time": "Daytime",
+      "scene/location": "Cafe",
+      "video_duration": 6.11,
+      "visual_segments": [
+        {
+          "start_time": 0.9,
+          "end_time": 4.3,
+          "duration": "3.4",
+          "description": "From a first-person viewpoint, the camera shows the backs of several people wearing winter clothes like beanies and jackets, waiting in a line. The setting appears to be a modern cafe with a high ceiling, from which a large, multi-armed chandelier hangs. The people are standing still, and their expressions are not visible. The background features a counter with menu boards."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/9504edb7-02d1-44a8-9fb1-b59162e3ed04.mp4"
+    },
+    "video_17": {
+      "time": "Daytime",
+      "scene/location": "Restaurant",
+      "video_duration": 3.97,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.9,
+          "duration": "3.9",
+          "description": "A static, high-angle shot captures a white plate holding several churros<XAYZ> dusted with powdered sugar. Beside them is a small white bowl filled with chocolate dipping sauce<BCDE>."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/96755a57-8d5d-4d60-9342-9e02b1c8e9ce.mp4"
+    },
+    "video_18": {
+      "time": "Daytime",
+      "scene/location": "A bakery or cafe",
+      "video_duration": 6.71,
+      "visual_segments": [
+        {
+          "start_time": 1.0,
+          "end_time": 3.8,
+          "duration": "2.8",
+          "description": "A static shot shows a black refrigerated display case filled with various desserts. The shelves contain different types of cakes and pastries. Some desserts are in clear plastic containers on the bottom shelf, while others like donuts and brownies are on the middle shelf. More baked goods are displayed on stands above the case. In the background, a black menu board is visible on the wall."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/9dade0cd-55d1-4817-bf1d-c5c668ce8ddf.mp4"
+    },
+    "video_19": {
+      "time": "Daytime",
+      "scene/location": "Indoors, likely a restaurant",
+      "video_duration": 4.31,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 4.2,
+          "duration": "4.2",
+          "description": "In a steady close-up shot, a person's hand holds a white paper menu <PQRT>. The person, wearing a cream-colored sweater, remains still throughout the clip. The focus is on the menu's text, which is clearly legible against the plain background."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/aab9321b-66ab-4f43-9d08-ab62811d57ab.mp4"
+    },
+    "video_20": {
+      "time": "",
+      "scene/location": "Indoors",
+      "video_duration": 5.17,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.5,
+          "duration": "2.5",
+          "description": "A static close-up shot shows a pile of shell-shaped, brown pastries <QZVX> on a white plate. The pastries <QZVX> are generously dusted with white powdered sugar."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/ae528f4b-71dc-4222-a7ff-257d968e6b14.mp4"
+    },
+    "video_21": {
+      "time": "Daytime",
+      "scene/location": "Indoors",
+      "video_duration": 4.08,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 4.0,
+          "duration": "4.0",
+          "description": "A static close-up shot shows several stacked white boxes with black lettering and transparent windows, revealing food items inside. The background consists of a yellow and grey patterned surface."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/e42d431c-cddc-43e4-bd1f-7f5bd2be148d.mp4"
+    },
+    "video_22": {
+      "time": "Daytime",
+      "scene/location": "Indoors",
+      "video_duration": 9.46,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": "3.8",
+          "description": "A close-up shot focuses on the lower-middle part of a green Christmas tree. It is decorated with various ornaments, including shiny red baubles<JQRT>, matte black baubles<XCPZ>, and clear/white baubles<FWHK>. The camera begins a slow upward pan."
+        },
+        {
+          "start_time": 5.6,
+          "end_time": 9.4,
+          "duration": "3.8",
+          "description": "Compared to the previous highlight, the camera has moved significantly upward, showing the middle-to-upper section of the Christmas tree. The perspective has changed, but the scene remains the same, featuring similar ornaments like red baubles<JQRT> and white baubles<FWHK>. More of the indoor background, including large windows, is now visible."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/ec1c1676-f8f8-43a5-ba30-25df27610642.mp4"
+    },
+    "video_23": {
+      "time": "Daytime",
+      "scene/location": "Restaurant",
+      "video_duration": 3.87,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": "3.8",
+          "description": "A static close-up shot shows a golden-brown croissant sandwich filled with bacon and green arugula on a white plate. In the blurred background, another white plate holds several churros dusted with powdered sugar, alongside a small white bowl containing a dark dipping sauce."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/f13b6cd9-acf5-4e74-9acc-a2e1f189d345.mp4"
+    }
+  },
+  "arrange_keyframe_limit_info": {
+    "enabled": false,
+    "model_name": "gemini-2.5-pro",
+    "max_keyframes": 120,
+    "total_segments": 26,
+    "selected_segments": 26,
+    "dropped_segments": 0,
+    "selected_by_video": {
+      "video_0": [
+        {
+          "video_id": "video_0",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": 2.7
+        }
+      ],
+      "video_1": [
+        {
+          "video_id": "video_1",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.5,
+          "duration": 3.5
+        }
+      ],
+      "video_2": [
+        {
+          "video_id": "video_2",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": 2.9
+        }
+      ],
+      "video_3": [
+        {
+          "video_id": "video_3",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": 2.7
+        }
+      ],
+      "video_4": [
+        {
+          "video_id": "video_4",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.6,
+          "duration": 2.6
+        }
+      ],
+      "video_5": [
+        {
+          "video_id": "video_5",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.6,
+          "duration": 2.6
+        }
+      ],
+      "video_6": [
+        {
+          "video_id": "video_6",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": 3.8
+        }
+      ],
+      "video_7": [
+        {
+          "video_id": "video_7",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": 3.8
+        }
+      ],
+      "video_8": [
+        {
+          "video_id": "video_8",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": 2.4
+        }
+      ],
+      "video_9": [
+        {
+          "video_id": "video_9",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.5,
+          "duration": 3.5
+        }
+      ],
+      "video_10": [
+        {
+          "video_id": "video_10",
+          "segment_index": 0,
+          "start_time": 2.9,
+          "end_time": 7.6,
+          "duration": 4.7
+        }
+      ],
+      "video_11": [
+        {
+          "video_id": "video_11",
+          "segment_index": 0,
+          "start_time": 1.8,
+          "end_time": 4.5,
+          "duration": 2.7
+        }
+      ],
+      "video_12": [
+        {
+          "video_id": "video_12",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": 2.9
+        }
+      ],
+      "video_13": [
+        {
+          "video_id": "video_13",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": 2.9
+        },
+        {
+          "video_id": "video_13",
+          "segment_index": 1,
+          "start_time": 6.6,
+          "end_time": 10.4,
+          "duration": 3.8
+        }
+      ],
+      "video_14": [
+        {
+          "video_id": "video_14",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": 3.8
+        }
+      ],
+      "video_15": [
+        {
+          "video_id": "video_15",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 4.7,
+          "duration": 4.7
+        }
+      ],
+      "video_16": [
+        {
+          "video_id": "video_16",
+          "segment_index": 0,
+          "start_time": 0.9,
+          "end_time": 4.3,
+          "duration": 3.4
+        }
+      ],
+      "video_17": [
+        {
+          "video_id": "video_17",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.9,
+          "duration": 3.9
+        }
+      ],
+      "video_18": [
+        {
+          "video_id": "video_18",
+          "segment_index": 0,
+          "start_time": 1.0,
+          "end_time": 3.8,
+          "duration": 2.8
+        }
+      ],
+      "video_19": [
+        {
+          "video_id": "video_19",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 4.2,
+          "duration": 4.2
+        }
+      ],
+      "video_20": [
+        {
+          "video_id": "video_20",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.5,
+          "duration": 2.5
+        }
+      ],
+      "video_21": [
+        {
+          "video_id": "video_21",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 4.0,
+          "duration": 4.0
+        }
+      ],
+      "video_22": [
+        {
+          "video_id": "video_22",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": 3.8
+        },
+        {
+          "video_id": "video_22",
+          "segment_index": 1,
+          "start_time": 5.6,
+          "end_time": 9.4,
+          "duration": 3.8
+        }
+      ],
+      "video_23": [
+        {
+          "video_id": "video_23",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": 3.8
+        }
+      ]
+    },
+    "dropped_by_video": {}
+  },
+  "get_arrange_result": {
+    "model_name": "gemini-2.5-pro",
+    "arrange_input_mode": "time_desc_frame",
+    "gemini_expected_duration": null,
+    "final_duration": 88.2,
+    "predict_sort_answer": [
+      "video_14",
+      "video_3",
+      "video_4",
+      "video_11",
+      "video_15",
+      "video_16",
+      "video_8",
+      "video_1",
+      "video_21",
+      "video_18",
+      "video_0",
+      "video_6",
+      "video_13",
+      "video_9",
+      "video_22",
+      "video_7",
+      "video_19",
+      "video_2",
+      "video_12",
+      "video_5",
+      "video_23",
+      "video_20",
+      "video_17",
+      "video_10"
+    ],
+    "arrange_result": {
+      "tag": "生活vlog-探店",
+      "theme": "记录在“麻雀面包店”（The Sparrow Bakery）的一次探店经历，展示了从店外排队、店内环境、丰富的商品到最终品尝美食的全过程。",
+      "sort": {
+        "analysis": "根据故事线逻辑排序：从店外排队和展示店面信息开始，过渡到店内环境和商品陈列，然后展示菜单和最后享用的各种美食与咖啡，形成一个完整的探店体验流程。空间上遵循从外到内，视觉上将相似场景（如排队、商品陈列、菜单、同类食物）聚合在一起。",
+        "result": [
+          "video_14",
+          "video_3",
+          "video_4",
+          "video_11",
+          "video_15",
+          "video_16",
+          "video_8",
+          "video_1",
+          "video_21",
+          "video_18",
+          "video_0",
+          "video_6",
+          "video_13",
+          "video_9",
+          "video_22",
+          "video_7",
+          "video_19",
+          "video_2",
+          "video_12",
+          "video_5",
+          "video_23",
+          "video_20",
+          "video_17",
+          "video_10"
+        ]
+      },
+      "storyline": "视频以顾客在“麻雀面包店”外排队的场景开启，展示了店面的标识和所获奖项，营造出高人气的氛围。进入店内后，镜头扫过咖啡吧台、商品陈列区、甜品柜和节日装饰，全面展现了店铺的环境和特色。接着通过展示菜单，引出视频的高潮——品尝环节，特写展示了艺术拿铁、可颂三明治、螺旋酥和蘸着巧克力酱的吉事果，为观众带来一场视觉上的美食盛宴。",
+      "arrange_results": [
+        {
+          "video_id": "video_14",
+          "summary": "第一人称视角拍摄了在面包店外排队等待的人群。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.8,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": 3.8
+        },
+        {
+          "video_id": "video_3",
+          "summary": "特写镜头展示了面包店玻璃门上印有“the SPARROW bakery”的黄色logo贴纸。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.7,
+              "duration": 2.7
+            }
+          ],
+          "arrange_duration": 2.7
+        },
+        {
+          "video_id": "video_4",
+          "summary": "特写镜头展示了窗户上贴着的“2023年最佳面包店”获奖标志。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.6,
+              "duration": 2.6
+            }
+          ],
+          "arrange_duration": 2.6
+        },
+        {
+          "video_id": "video_11",
+          "summary": "展示了店外的A字型立牌菜单，上面写着“FULL SERVICE DINING AND COCKTAILS”。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 1.8,
+              "end_time": 4.5,
+              "duration": 2.7
+            }
+          ],
+          "arrange_duration": 2.7
+        },
+        {
+          "video_id": "video_15",
+          "summary": "另一个角度拍摄的A字型立牌，展示了不同的鸡尾酒菜单。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，与video_11内容互补，不构成冗余。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 4.7,
+              "duration": 4.7
+            }
+          ],
+          "arrange_duration": 4.7
+        },
+        {
+          "video_id": "video_16",
+          "summary": "第一人称视角拍摄了在面包店高挑的室内空间中排队的人群。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.9,
+              "end_time": 4.3,
+              "duration": 3.4
+            }
+          ],
+          "arrange_duration": 3.4
+        },
+        {
+          "video_id": "video_8",
+          "summary": "展示了咖啡店的吧台区域，包括咖啡研磨机和咖啡豆。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.4,
+              "duration": 2.4
+            }
+          ],
+          "arrange_duration": 2.4
+        },
+        {
+          "video_id": "video_1",
+          "summary": "展示了柜台上的商品，包括马卡龙礼盒、麦片和面包。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.5,
+              "duration": 3.5
+            }
+          ],
+          "arrange_duration": 3.5
+        },
+        {
+          "video_id": "video_21",
+          "summary": "特写镜头展示了印有店铺logo的堆叠起来的食品包装盒。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 4.0,
+              "duration": 4.0
+            }
+          ],
+          "arrange_duration": 4.0
+        },
+        {
+          "video_id": "video_18",
+          "summary": "展示了装满各种蛋糕和糕点的黑色冷藏甜品柜。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 1.0,
+              "end_time": 3.8,
+              "duration": 2.8
+            }
+          ],
+          "arrange_duration": 2.8
+        },
+        {
+          "video_id": "video_0",
+          "summary": "近景拍摄了冷藏甜品柜中的细节，包括闪电泡芙和甜甜圈。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，作为video_18的补充视角，不构成冗余。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.7,
+              "duration": 2.7
+            }
+          ],
+          "arrange_duration": 2.7
+        },
+        {
+          "video_id": "video_6",
+          "summary": "展示了店内摆放着各种礼品、面包和鲜花的木制展示台。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.8,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": 3.8
+        },
+        {
+          "video_id": "video_13",
+          "summary": "从不同角度和远近拍摄了礼品展示台，展示了糕点盒、糖果等商品。",
+          "visual_redundancy_analysis": "包含两个片段，第二个片段是第一个片段的推近镜头，聚焦于中心商品，展示了更多细节，不属于冗余。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.9,
+              "duration": 2.9
+            },
+            {
+              "start_time": 6.6,
+              "end_time": 10.4,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": 6.7
+        },
+        {
+          "video_id": "video_9",
+          "summary": "特写镜头展示了装饰着可颂面包形状挂件的圣诞树。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.5,
+              "duration": 3.5
+            }
+          ],
+          "arrange_duration": 3.5
+        },
+        {
+          "video_id": "video_22",
+          "summary": "镜头缓慢地从下往上拍摄圣诞树，展示了其上的各种装饰品。",
+          "visual_redundancy_analysis": "包含两个片段，通过运镜从下往上展示圣诞树的不同部分，形成一个连贯的动态镜头，不属于冗余。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.8,
+              "duration": 3.8
+            },
+            {
+              "start_time": 5.6,
+              "end_time": 9.4,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": 7.6
+        },
+        {
+          "video_id": "video_7",
+          "summary": "一只手举着“SPARROW BAKERY”的菜单，清晰地展示了三明治部分。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.8,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": 3.8
+        },
+        {
+          "video_id": "video_19",
+          "summary": "展示了菜单的另一部分，包括法式吐司条和汤品等。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，展示了与video_7不同的菜单内容，不构成冗余。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 4.2,
+              "duration": 4.2
+            }
+          ],
+          "arrange_duration": 4.2
+        },
+        {
+          "video_id": "video_2",
+          "summary": "俯拍视角展示了一杯带有叶子形状拉花艺术的拿铁咖啡。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.9,
+              "duration": 2.9
+            }
+          ],
+          "arrange_duration": 2.9
+        },
+        {
+          "video_id": "video_12",
+          "summary": "展示了放在白色盘子里的螺旋形状酥皮点心和一杯黑咖啡。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.9,
+              "duration": 2.9
+            }
+          ],
+          "arrange_duration": 2.9
+        },
+        {
+          "video_id": "video_5",
+          "summary": "特写镜头展示了盘子中一个夹有培根和芝麻菜的可颂三明治。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.6,
+              "duration": 2.6
+            }
+          ],
+          "arrange_duration": 2.6
+        },
+        {
+          "video_id": "video_23",
+          "summary": "从另一个角度拍摄可颂三明治，背景中可以看到吉事果。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，构图和背景与video_5不同，不构成冗余。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.8,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": 3.8
+        },
+        {
+          "video_id": "video_20",
+          "summary": "特写镜头展示了盘子上堆放的撒满糖粉的贝壳状糕点（吉事果）。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，无冗余可分析。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.5,
+              "duration": 2.5
+            }
+          ],
+          "arrange_duration": 2.5
+        },
+        {
+          "video_id": "video_17",
+          "summary": "高角度拍摄了撒有糖粉的吉事果和旁边的巧克力蘸酱。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，相比video_20引入了巧克力酱这一新元素，构图不同，不构成冗余。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.9,
+              "duration": 3.9
+            }
+          ],
+          "arrange_duration": 3.9
+        },
+        {
+          "video_id": "video_10",
+          "summary": "展示了一只手拿起吉事果并蘸取巧克力酱的动作。",
+          "visual_redundancy_analysis": "视频仅包含一个高光片段，展示了“吃”的动作，与前几个静态展示食物的镜头不同，是故事线的递进，不构成冗余。",
+          "segments": [
+            {
+              "start_time": 2.9,
+              "end_time": 7.6,
+              "duration": 4.7
+            }
+          ],
+          "arrange_duration": 4.7
+        }
+      ],
+      "duration_adjustment": {}
+    }
+  }
+}

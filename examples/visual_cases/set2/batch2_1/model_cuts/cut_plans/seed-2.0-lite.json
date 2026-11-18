@@ -1,0 +1,403 @@
+{
+  "entry": "batch2_1.json",
+  "tools": [
+    "get_arrange_result"
+  ],
+  "model_name_by_tool": {
+    "get_arrange_result": "seed-2.0-lite"
+  },
+  "arrange_input_mode": "time_desc_frame",
+  "user_prompt": "Make it around 15 seconds. Start with the cat coffee art",
+  "raw_understanding_result": {
+    "video_0": {
+      "time": "",
+      "scene/location": "In front of a 7-Eleven ice cream vending machine",
+      "video_duration": 2.51,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": "2.4",
+          "description": "Multiple visible hands hold three distinct ice cream cone products: the left hand grips the dark blue ice cream package <KLDW>, the middle hand holds the teal ice cream package <MFRX>, the right hand holds the dark red ice cream package <PZQY>, they carry out a clinking toasting action in front of the colorful poster-covered 7-Eleven ice cream vending machine background, no facial expressions are shown as only hands appear in the frame"
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/MV_20250315_145259.mp4"
+    },
+    "video_1": {
+      "time": "",
+      "scene/location": "Indoor public lobby with glossy marble floor",
+      "video_duration": 2.3,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "Only hands are visible in the frame with no facial expressions shown, the hands hold several maroon Chinese passports <KLPQ> printed with golden national emblems, with white and red edged boarding passes <XNOW> inserted in each passport, the background is the reflective glossy marble floor of an indoor public lobby"
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250315_055521.mp4"
+    },
+    "video_2": {
+      "time": "Daytime",
+      "scene/location": "Indoor kitchen counter area below a wooden seasoning shelf",
+      "video_duration": 2.77,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": "2.7",
+          "description": "The opening scene presents a wooden shelf holding different metal and plastic seasoning containers with yellow labels, three glass jars with dark red lids that contain white, red and light yellow powder are placed on the light wood counter. Then multiple hands including one with a silver ring and one covered with pink glove place three transparent glass mugs <XKLP> that hold yellow and dark colored brewed tea with visible tea leaves on the counter, no facial expression is presented as only hands appear in the frame."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_134505.mp4"
+    },
+    "video_3": {
+      "time": "Overcast rainy daytime",
+      "scene/location": "Covered wooden corridor of a traditional East Asian shrine, with a wet public courtyard and adjacent traditional architectural structures in the background",
+      "video_duration": 3.0,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": "2.9",
+          "description": "Three people are holding three light beige paper fortune slips printed with dense black kanji characters<XKFP> in their hands, presenting the slips to the camera with no obvious facial expression, the background is the wet red-painted wooden corridor of a traditional shrine, with overcast sky, green-roofed pavilion and crowds of visitors in the far courtyard"
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_150304.mp4"
+    },
+    "video_4": {
+      "time": "Not specified",
+      "scene/location": "Indoor space with a plain light beige wall and dark reddish-brown wooden table",
+      "video_duration": 3.9,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": "3.8",
+          "description": "At the beginning of the frame, only a plain light beige wall and dark reddish-brown wooden tabletop are visible, then three latte glasses <KXPR> with 3D foam art (one dog face design, two different cat face designs) are placed on the table with separate white saucers, each saucer is matched with a silver metal spoon <LWZM>, a partial human hand adjusts the position of the middle silver metal spoon <LWZM> then exits the frame, the three exquisitely decorated latte drinks are fully presented"
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_170056.mp4"
+    },
+    "video_5": {
+      "time": "Indoor ambient light with no clear time indication",
+      "scene/location": "Indoor dining area (restaurant private dining space)",
+      "video_duration": 3.13,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": "3.0",
+          "description": "The camera first captures the dark wooden dining table set with a dark textured plate of chopped light green lettuce <WXZY>, a small white empty dish placed with two light wood chopsticks <PQRS>, and a brown kraft paper bag <ABMN> resting on the chair in the background. Then multiple hands holding different drink containers including a small off-white ceramic cup filled with green liquid <KHGT>, a transparent glass with yellow foamy drink that has an ice cube <OPQW>, and a glass of light brown drink topped with thick white foam, move all the cups together to perform a toast, no facial features of the people are shown."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_202917.mp4"
+    },
+    "video_6": {
+      "time": "",
+      "scene/location": "Indoor barbecue restaurant, at a dining table",
+      "video_duration": 2.27,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "The frame presents a dark wooden dining table in a barbecue restaurant, with a silver metal barbecue grill <BFTQ> placed with raw meat, a round wooden tray <CWRA> carrying different appetizers, small metal plates and tableware on it. Then multiple hands hold three different transparent cups respectively, including a tall cup with yellow iced drink <LKJM>, a tall foamy dark beer cup <XZPN>, and a tall cup with orange iced drink <YHDS>, to complete a clinking action. The person in red jacket behind the cups has no obvious facial expression. As it is the only highlight segment, no difference comparison content is needed"
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250318_142943.mp4"
+    }
+  },
+  "arrange_keyframe_limit_info": {
+    "enabled": false,
+    "model_name": "seed-2.0-lite",
+    "max_keyframes": 120,
+    "total_segments": 7,
+    "selected_segments": 7,
+    "dropped_segments": 0,
+    "selected_by_video": {
+      "video_0": [
+        {
+          "video_id": "video_0",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": 2.4
+        }
+      ],
+      "video_1": [
+        {
+          "video_id": "video_1",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ],
+      "video_2": [
+        {
+          "video_id": "video_2",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": 2.7
+        }
+      ],
+      "video_3": [
+        {
+          "video_id": "video_3",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": 2.9
+        }
+      ],
+      "video_4": [
+        {
+          "video_id": "video_4",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": 3.8
+        }
+      ],
+      "video_5": [
+        {
+          "video_id": "video_5",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": 3.0
+        }
+      ],
+      "video_6": [
+        {
+          "video_id": "video_6",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ]
+    },
+    "dropped_by_video": {}
+  },
+  "get_arrange_result": {
+    "model_name": "seed-2.0-lite",
+    "arrange_input_mode": "time_desc_frame",
+    "gemini_expected_duration": null,
+    "final_duration": 14.6,
+    "predict_sort_answer": [
+      "video_4",
+      "video_1",
+      "video_3",
+      "video_0",
+      "video_2",
+      "video_5",
+      "video_6"
+    ],
+    "arrange_result": {
+      "tag": "生活vlog-多人出游打卡",
+      "theme": "以3D萌宠拉花咖啡开篇，记录好友结伴出行从出发准备到多地欢聚碰杯的轻松美好出游日常",
+      "sort": {
+        "analysis": "遵循用户指定开篇为猫咪拉花咖啡相关素材的要求，后续按照多人出行的时间动线排序：依次为出行证件准备、景点游览求签、便利店消费，再连贯排列多组不同场景下的举杯碰杯镜头，同类动作场景集中排布不交叉。",
+        "result": [
+          "video_4",
+          "video_1",
+          "video_3",
+          "video_0",
+          "video_2",
+          "video_5",
+          "video_6"
+        ]
+      },
+      "storyline": "以摆满3D猫脸狗脸立体拉花拿铁的温馨画面开场，依次展示好友一行人准备好护照和登机牌出发、到传统东亚神社廊下展示求来的纸签、在7-Eleven冰淇淋自动售货机前举着多款冰淇淋碰杯，后续陆续切换场景，在居家厨房吧台、休闲餐厅、韩式烤肉店分别举杯享用特色饮品，完整呈现多人结伴出游全程的愉悦欢聚氛围。",
+      "arrange_results": [
+        {
+          "video_id": "video_4",
+          "summary": "室内原木餐桌上摆放着三款造型精美的3D动物拉花拿铁，手部调整完银勺后完整展示全部饮品。",
+          "visual_redundancy_analysis": "该素材仅包含1个完整高光片段，无重复镜头，画面清晰主体完整，无劣质问题，直接全部保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.8,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": 3.8
+        },
+        {
+          "video_id": "video_1",
+          "summary": "室内大理石大厅中，双手分别展示夹有登机牌的两本中国护照。",
+          "visual_redundancy_analysis": "仅单个高光片段，核心展示信息完整无冗余重复，画面清晰，全部保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        },
+        {
+          "video_id": "video_3",
+          "summary": "雨天传统神社的红色木廊下，多人手持印有日文的浅米色求签纸向镜头展示。",
+          "visual_redundancy_analysis": "单一片段无多余重复内容，画面动作流畅信息完整，直接全部保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.9,
+              "duration": 2.9
+            }
+          ],
+          "arrange_duration": 2.9
+        },
+        {
+          "video_id": "video_0",
+          "summary": "7-Eleven冰淇淋自动售货机前，多只手举着三款不同包装的冰淇淋甜筒完成碰杯动作。",
+          "visual_redundancy_analysis": "仅包含冰淇淋碰杯的单个高光片段，核心动作完整，无冗余内容，直接保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.4,
+              "duration": 2.4
+            }
+          ],
+          "arrange_duration": 2.4
+        },
+        {
+          "video_id": "video_2",
+          "summary": "厨房调料架下方的台面上，多只手陆续摆放三杯装有不同茶水的透明玻璃杯。",
+          "visual_redundancy_analysis": "单一片段无冗余劣质内容，主体物品摆放过程完整，直接全部保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.7,
+              "duration": 2.7
+            }
+          ],
+          "arrange_duration": 2.7
+        },
+        {
+          "video_id": "video_5",
+          "summary": "室内私人餐厅的餐桌上，多人分别手持三杯不同的特色饮品共同完成碰杯动作。",
+          "visual_redundancy_analysis": "仅单个碰杯高光片段，动作完整清晰，无重复冗余内容，全部保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.0,
+              "duration": 3.0
+            }
+          ],
+          "arrange_duration": 3.0
+        },
+        {
+          "video_id": "video_6",
+          "summary": "韩式烤肉店的烤桌前，多人举着三杯不同的冰饮和啤酒完成碰杯动作。",
+          "visual_redundancy_analysis": "单一片段画面清晰，核心碰杯动作完整，无冗余内容直接保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        }
+      ],
+      "duration_adjustment": {
+        "target_duration": 15.0,
+        "current_duration": 19.2,
+        "scale_ratio": 0.781,
+        "analysis": "用户要求成片总时长约15秒，当前编排总时长19.2秒，因此按照0.781的缩放比例，以每个高光片段的中心点为基准向两侧等比例裁剪，在保留所有片段核心动作主体的前提下，将总时长精准调整至15秒，调整后片段之间不存在时间重叠，符合顺序逻辑要求。",
+        "adjusted_arrange_results": [
+          {
+            "video_id": "video_4",
+            "adjusted_segments": [
+              {
+                "start_time": 0.4,
+                "end_time": 3.4,
+                "duration": 3.0
+              }
+            ],
+            "adjusted_duration": 3.0
+          },
+          {
+            "video_id": "video_1",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 1.8,
+                "duration": 1.5
+              }
+            ],
+            "adjusted_duration": 1.5
+          },
+          {
+            "video_id": "video_3",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.6,
+                "duration": 2.3
+              }
+            ],
+            "adjusted_duration": 2.3
+          },
+          {
+            "video_id": "video_0",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.2,
+                "duration": 1.9
+              }
+            ],
+            "adjusted_duration": 1.9
+          },
+          {
+            "video_id": "video_2",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.4,
+                "duration": 2.1
+              }
+            ],
+            "adjusted_duration": 2.1
+          },
+          {
+            "video_id": "video_5",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.1,
+                "duration": 1.8
+              }
+            ],
+            "adjusted_duration": 1.8
+          },
+          {
+            "video_id": "video_6",
+            "adjusted_segments": [
+              {
+                "start_time": 0.2,
+                "end_time": 2.2,
+                "duration": 2.4
+              }
+            ],
+            "adjusted_duration": 2.4
+          }
+        ],
+        "adjusted_total_duration": 15.0
+      }
+    }
+  }
+}

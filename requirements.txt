@@ -1,0 +1,21 @@
+# Tested with CPython 3.10 on Linux x86_64.
+# Runtime and numerical dependencies.
+numpy==1.26.4
+scipy==1.15.3
+requests==2.32.5
+tqdm==4.67.1
+retrying==1.4.2
+
+# Image and video processing.
+Pillow==10.4.0
+pillow-heif==0.18.0
+# decord2 provides the maintained `decord` import used by the codebase.
+decord2==3.4.0
+
+# The codebase uses MoviePy 1.x APIs such as `moviepy.editor` and `set_duration`.
+moviepy==1.0.3
+# Compatibility pins for MoviePy 1.0.3.
+decorator==4.4.2
+imageio==2.37.4
+imageio-ffmpeg==0.6.0
+proglog==0.1.12

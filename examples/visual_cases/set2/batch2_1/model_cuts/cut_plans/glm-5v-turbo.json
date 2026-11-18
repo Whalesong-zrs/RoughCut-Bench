@@ -1,0 +1,403 @@
+{
+  "entry": "batch2_1.json",
+  "tools": [
+    "get_arrange_result"
+  ],
+  "model_name_by_tool": {
+    "get_arrange_result": "glm-5v-turbo"
+  },
+  "arrange_input_mode": "time_desc_frame",
+  "user_prompt": "Make it around 15 seconds. Start with the cat coffee art",
+  "raw_understanding_result": {
+    "video_0": {
+      "time": "",
+      "scene/location": "7-Eleven convenience store, in front of a freezer/display case",
+      "video_duration": 2.51,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": "2.4",
+          "description": "The video opens with a close-up view of a 7-Eleven branded freezer display case stocked with various ice cream products including cups and cones in multiple colors such as yellow, brown, blue, pink, and purple, each with price tags showing 550 yen. At approximately 1.6 seconds, three hands enter the frame from left, center-bottom, and right sides, each holding an ice cream cone: the left hand holds a blue-packaged chocolate-flavored cone<KXPM>, the center hand holds a teal/mint green packaged cone<BQWN>, and the right hand holds a red/pink packaged cone<RTZL>. All three hands hold their respective ice creams steady in front of the colorful freezer background for display."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/MV_20250315_145259.mp4"
+    },
+    "video_1": {
+      "time": "",
+      "scene/location": "Indoor public space with reflective dark gray stone flooring and bright overhead lighting, likely an airport departure hall or transit station.",
+      "video_duration": 2.3,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "The footage starts with a view of a glossy dark gray marble floor featuring subtle light reflections from ceiling fixtures and a contrasting light-colored rectangular floor mat in the upper portion. The scene then shifts to show two hands presenting two open dark red Chinese passports<PSSP> with golden national emblems and 'PASSPORT' text visible, each holding white paper airline tickets<TKKT> with red and black printed details. The left hand wears a white fluffy-textured cuff garment while the right hand wears a green fabric cuff. Both passports are held steady facing the camera to clearly display the document information."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250315_055521.mp4"
+    },
+    "video_2": {
+      "time": "",
+      "scene/location": "Kitchen counter or restaurant tabletop with condiment storage shelf.",
+      "video_duration": 2.77,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": "2.7",
+          "description": "The video begins with a static shot of a light wood-grain countertop and shelving unit holding a brown wooden drawer <ZKPL> with metal containers and spice jars arranged above it. At approximately 0.9 seconds, a dark-colored beverage in a clear glass mug <BKLV> appears on the left side of the frame alongside a golden-yellow iced beer in a larger handled glass mug <MQTX> on the right. By 1.8 seconds, two hands enter from the left and right edges respectively—the left hand gripping the handle of the dark drink mug <BKLV> and the right hand holding the yellow beer mug <MQTX>. Both hands lift the mugs slightly and hold them adjacent to each other in a classic toasting posture, remaining steady through the final frame at 2.7 seconds. The background remains consistent throughout with no camera movement, focusing entirely on the introduction of the drinks and the subsequent toast preparation action."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_134505.mp4"
+    },
+    "video_3": {
+      "time": "Daytime",
+      "scene/location": "Japanese temple/shrine courtyard with traditional red wooden structures and green-roofed pavilion",
+      "video_duration": 3.0,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": "2.9",
+          "description": "The scene opens with a view from beneath a red wooden temple eave with striped ceiling panels, overlooking a wet courtyard where a green hexagonal pavilion and distant temple buildings are visible. A person's hand appears at the bottom right corner initially. Subsequently, multiple hands holding rectangular paper fortune slips <OMZK> filled with dense Japanese text enter the frame from both sides, positioning them side by side to display their contents toward the camera. The background remains consistent showing the temple grounds with visitors moving about near the green pavilion."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_150304.mp4"
+    },
+    "video_4": {
+      "time": "",
+      "scene/location": "Indoor setting, wooden tabletop with plain wall background",
+      "video_duration": 3.9,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": "3.8",
+          "description": "The clip begins at 0.0s with a static shot of a brown wooden surface and beige wall with no subjects present. Starting around 1.0s, the upper portions of three glass containers emerge from the bottom edge of the frame. By 1.9s, the complete scene is revealed: three tall glasses filled with grayish beverages topped with intricate, three-dimensional cat-face foam art <CFAF>, each resting on a small white ceramic saucer with a metal teaspoon placed on the left side. The leftmost drink features a cheerful white cat face with open mouth and dark eyes; the center drink displays a realistic tabby cat pattern with distinctive forehead stripes and alert expression; the rightmost drink portrays a serene cream-colored cat with gently closed eyes and subtle shading. The camera remains stationary from 2.9s through 3.8s, maintaining a steady frontal view that allows clear observation of the delicate latte craftsmanship and the uniform arrangement of the three beverages."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_170056.mp4"
+    },
+    "video_5": {
+      "time": "Indoor lighting, specific time unclear.",
+      "scene/location": "Indoor dining setting, likely a restaurant or home dining table.",
+      "video_duration": 3.13,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": "3.0",
+          "description": "The video opens with a close-up of a dark wooden dining table featuring a black ceramic plate filled with chopped pale green cabbage<VEGE>, accompanied by wooden chopsticks<CHST> resting on a small round white plate<PLTE>. In the background, a brown paper shopping bag and a folded umbrella are visible against a plain wall. A person wearing blue and white striped clothing partially enters from the right side. The camera then captures three hands simultaneously raising and holding together three distinct drinks for a toast: a small textured gray-green ceramic cup<GRNC> containing dark green liquid, a tall clear glass<WHFC> topped with thick white foam, and another tall glass<YLWC> filled with yellow-orange beverage and ice cubes. The hands remain steady in the toasting position throughout the latter part of the clip."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_202917.mp4"
+    },
+    "video_6": {
+      "time": "",
+      "scene/location": "Indoor Korean barbecue restaurant / BBQ dining table",
+      "video_duration": 2.27,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "The video opens with a close-up view of a round metal barbecue grill <GRIL> containing raw meat slices including pork belly and marinated beef, alongside a small portion of red kimchi. On the dark wooden table <TABLE>, there is a wooden serving tray <TRAY> holding side dishes such as corn cheese and rolled omelette, plus a small blue patterned bowl <BOWL>. A person wearing a bright red jacket <JACKE> sits behind the table with metal plates <PLAT> and chopsticks <CHOP> placed before them. Initially, their hands rest near the tableware, but by 0.7s they lift two tall glasses into frame—the left hand holding a yellow beverage labeled 'SUPER DRY' <YDRI> with ice cubes, and the right hand gripping a glass of beer <BEER> with foam on top. At 1.5s, a third hand enters from the bottom right corner holding a tall glass of orange-colored iced drink <ODRI>, positioning it to join the other two beverages. From 1.5s to 2.2s, all three drinks are held together in a toast formation, with the participants maintaining the clinking position. The background shows indistinct indoor restaurant lighting and partial views of brick-patterned walls."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250318_142943.mp4"
+    }
+  },
+  "arrange_keyframe_limit_info": {
+    "enabled": false,
+    "model_name": "glm-5v-turbo",
+    "max_keyframes": 120,
+    "total_segments": 7,
+    "selected_segments": 7,
+    "dropped_segments": 0,
+    "selected_by_video": {
+      "video_0": [
+        {
+          "video_id": "video_0",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": 2.4
+        }
+      ],
+      "video_1": [
+        {
+          "video_id": "video_1",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ],
+      "video_2": [
+        {
+          "video_id": "video_2",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": 2.7
+        }
+      ],
+      "video_3": [
+        {
+          "video_id": "video_3",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": 2.9
+        }
+      ],
+      "video_4": [
+        {
+          "video_id": "video_4",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": 3.8
+        }
+      ],
+      "video_5": [
+        {
+          "video_id": "video_5",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": 3.0
+        }
+      ],
+      "video_6": [
+        {
+          "video_id": "video_6",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ]
+    },
+    "dropped_by_video": {}
+  },
+  "get_arrange_result": {
+    "model_name": "glm-5v-turbo",
+    "arrange_input_mode": "time_desc_frame",
+    "gemini_expected_duration": null,
+    "final_duration": 14.9,
+    "predict_sort_answer": [
+      "video_4",
+      "video_6",
+      "video_5",
+      "video_2",
+      "video_3",
+      "video_0",
+      "video_1"
+    ],
+    "arrange_result": {
+      "tag": "旅游vlog-美食探店",
+      "theme": "记录日本旅行中与好友共享的美食、文化与欢乐时光，从精致猫咪拉花咖啡到街头便利店的甜蜜时刻，每一帧都值得举杯庆祝。",
+      "sort": {
+        "analysis": "用户明确指定以猫咖啡艺术(video_4)作为成片开头。剩余视频遵循「餐饮场景集聚→文化景点游览→休闲购物→旅程交通」的空间叙事逻辑排列：将所有饮食相关场景(video_6韩式烧烤、video_5日式餐食、video_2居酒屋碰杯)紧密排在开头之后形成连续的美食板块；随后衔接户外文化体验(video_3神社求签)；再转至室内休闲购物(video_0便利店)；最后以机场出发场景(video_1)收尾，形成完整的旅行闭环。",
+        "result": [
+          "video_4",
+          "video_6",
+          "video_5",
+          "video_2",
+          "video_3",
+          "video_0",
+          "video_1"
+        ]
+      },
+      "storyline": "影片以三杯精美绝伦的猫咪拉花咖啡特写开场，随即切入韩式烧烤餐桌上的三杯欢庆碰杯，接着转到日式家庭餐桌前再次举杯共饮，再续写居酒屋风格的啤酒干杯时刻；画面一转来到古色古香的日本神社庭院，双手展示着求得的运势签文；随后闪现7-Eleven便利店冰柜前三人各持一支彩色冰淇淋的甜蜜瞬间；最终定格在明亮机场大厅里两本中国护照与机票的特写上，暗示这段充满美食与友谊的旅程即将开启或刚刚落幕。",
+      "arrange_results": [
+        {
+          "video_id": "video_4",
+          "summary": "三杯带有精致立体猫咪脸部拉花艺术的创意咖啡整齐陈列在木质桌面上，每杯拉花造型各异（笑脸白猫、虎斑猫、闭眼奶油猫）。",
+          "visual_redundancy_analysis": "该视频仅包含1个连续镜头的visual_segment，从空镜过渡到完整展示三杯猫脸咖啡的全貌，无冗余片段，保留原切片。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.8,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": 3.8
+        },
+        {
+          "video_id": "video_6",
+          "summary": "韩式烧烤餐厅圆桌上，烤盘滋滋作响，三人同时举起黄色Super Dry啤酒、白色泡沫啤酒和橙色冰饮碰杯欢庆。",
+          "visual_redundancy_analysis": "该视频仅包含1个visual_segment，完整记录了从餐食展示到三杯饮料汇聚碰杯的过程，无冗余，保留原切片。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        },
+        {
+          "video_id": "video_5",
+          "summary": "深色木质餐桌上摆放着切好的卷心菜，三人举起抹茶杯、泡沫奶盖饮品和橙黄色冰饮共同碰杯。",
+          "visual_redundancy_analysis": "该视频仅包含1个visual_segment，涵盖了桌面食物细节及三杯不同饮品的碰杯动作，信息完整无冗余，保留原切片。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.0,
+              "duration": 3.0
+            }
+          ],
+          "arrange_duration": 3.0
+        },
+        {
+          "video_id": "video_2",
+          "summary": "浅木纹厨房台面上，双手分别端起深色冷饮杯和金黄色冰啤酒杯，做出经典的碰杯预备姿势。",
+          "visual_redundancy_analysis": "该视频仅包含1个visual_segment，完整呈现了两杯饮品的出现及碰杯动作的准备过程，无冗余片段，保留原切片。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.7,
+              "duration": 2.7
+            }
+          ],
+          "arrange_duration": 2.7
+        },
+        {
+          "video_id": "video_3",
+          "summary": "在日本传统红色神社建筑下，多只手从两侧伸入画面并排展示写满日文的矩形纸质求签（御神签）。",
+          "visual_redundancy_analysis": "该视频仅包含1个visual_segment，完整记录了神社庭院环境及多人展示签文的互动场景，无冗余，保留原切片。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.9,
+              "duration": 2.9
+            }
+          ],
+          "arrange_duration": 2.9
+        },
+        {
+          "video_id": "video_0",
+          "summary": "7-Eleven便利店冰柜前，三只手分别举着蓝色巧克力味、薄荷绿色和红色包装的三支冰淇淋筒合影展示。",
+          "visual_redundancy_analysis": "该视频仅包含1个visual_segment，清晰展现了冰柜背景及三支不同颜色冰淇淋的展示动作，无冗余，保留原切片。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.4,
+              "duration": 2.4
+            }
+          ],
+          "arrange_duration": 2.4
+        },
+        {
+          "video_id": "video_1",
+          "summary": "在光洁的大理石地面机场大厅内，两只手分别持打开的中国红色护照及夹带的白色机票向镜头展示。",
+          "visual_redundancy_analysis": "该视频仅包含1个visual_segment，完整呈现了地面环境及两本护照机票的展示细节，无冗余，保留原切片。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        }
+      ],
+      "duration_adjustment": {
+        "target_duration": 15.0,
+        "current_duration": 19.2,
+        "scale_ratio": 0.781,
+        "analysis": "当前编排总时长为19.2秒，超出目标时长15.0秒约4.2秒。采用等比例缩放策略（scale_ratio=0.781），对所有7个视频片段以各自中心点为基准进行对称裁剪，确保每个片段的核心主体内容（如猫脸拉花全貌、碰杯动作、签文展示等）均被保留，同时满足15秒左右的成片时长要求。",
+        "adjusted_arrange_results": [
+          {
+            "video_id": "video_4",
+            "adjusted_segments": [
+              {
+                "start_time": 0.4,
+                "end_time": 3.4,
+                "duration": 3.0
+              }
+            ],
+            "adjusted_duration": 3.0
+          },
+          {
+            "video_id": "video_6",
+            "adjusted_segments": [
+              {
+                "start_time": 0.2,
+                "end_time": 1.9,
+                "duration": 1.7
+              }
+            ],
+            "adjusted_duration": 1.7
+          },
+          {
+            "video_id": "video_5",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.6,
+                "duration": 2.3
+              }
+            ],
+            "adjusted_duration": 2.3
+          },
+          {
+            "video_id": "video_2",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.4,
+                "duration": 2.1
+              }
+            ],
+            "adjusted_duration": 2.1
+          },
+          {
+            "video_id": "video_3",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.6,
+                "duration": 2.3
+              }
+            ],
+            "adjusted_duration": 2.3
+          },
+          {
+            "video_id": "video_0",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.1,
+                "duration": 1.8
+              }
+            ],
+            "adjusted_duration": 1.8
+          },
+          {
+            "video_id": "video_1",
+            "adjusted_segments": [
+              {
+                "start_time": 0.2,
+                "end_time": 1.9,
+                "duration": 1.7
+              }
+            ],
+            "adjusted_duration": 1.7
+          }
+        ],
+        "adjusted_total_duration": 14.9
+      }
+    }
+  }
+}

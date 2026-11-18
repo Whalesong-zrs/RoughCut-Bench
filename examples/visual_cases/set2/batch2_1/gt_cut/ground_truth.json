@@ -1,0 +1,109 @@
+{
+  "batch2_1": {
+    "video_20250316_170056": {
+      "highlights": [
+        [
+          0.8,
+          3.0
+        ]
+      ],
+      "confidence": [
+        1
+      ],
+      "duration": 3.9,
+      "type": "video",
+      "path": "batch2_1/video_20250316_170056.mp4",
+      "prompt": "Make it around 15 seconds. Start with the cat coffee art"
+    },
+    "video_20250315_055521": {
+      "highlights": [
+        [
+          0.26666666666666666,
+          2.2666666666666666
+        ]
+      ],
+      "confidence": [
+        1
+      ],
+      "duration": 2.3,
+      "type": "video",
+      "path": "batch2_1/video_20250315_055521.mp4",
+      "prompt": "Make it around 15 seconds. Start with the cat coffee art"
+    },
+    "video_20250316_150304": {
+      "highlights": [
+        [
+          0.4,
+          3.0
+        ]
+      ],
+      "confidence": [
+        1
+      ],
+      "duration": 3.0,
+      "type": "video",
+      "path": "batch2_1/video_20250316_150304.mp4",
+      "prompt": "Make it around 15 seconds. Start with the cat coffee art"
+    },
+    "video_20250316_134505": {
+      "highlights": [
+        [
+          0.6,
+          2.6
+        ]
+      ],
+      "confidence": [
+        1
+      ],
+      "duration": 2.77,
+      "type": "video",
+      "path": "batch2_1/video_20250316_134505.mp4",
+      "prompt": "Make it around 15 seconds. Start with the cat coffee art"
+    },
+    "video_20250316_202917": {
+      "highlights": [
+        [
+          0.7,
+          3.0
+        ]
+      ],
+      "confidence": [
+        1
+      ],
+      "duration": 3.13,
+      "type": "video",
+      "path": "batch2_1/video_20250316_202917.mp4",
+      "prompt": "Make it around 15 seconds. Start with the cat coffee art"
+    },
+    "video_20250318_142943": {
+      "highlights": [
+        [
+          0.3,
+          2.2666666666666666
+        ]
+      ],
+      "confidence": [
+        1
+      ],
+      "duration": 2.27,
+      "type": "video",
+      "path": "batch2_1/video_20250318_142943.mp4",
+      "prompt": "Make it around 15 seconds. Start with the cat coffee art"
+    },
+    "MV_20250315_145259": {
+      "highlights": [
+        [
+          0.4,
+          2.466666666666667
+        ]
+      ],
+      "confidence": [
+        1
+      ],
+      "duration": 2.51,
+      "type": "video",
+      "path": "batch2_1/MV_20250315_145259.mp4",
+      "prompt": "Make it around 15 seconds. Start with the cat coffee art"
+    }
+  }
+}

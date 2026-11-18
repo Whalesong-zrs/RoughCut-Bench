@@ -1,0 +1,403 @@
+{
+  "entry": "batch2_1.json",
+  "tools": [
+    "get_arrange_result"
+  ],
+  "model_name_by_tool": {
+    "get_arrange_result": "qwen-3.5-plus"
+  },
+  "arrange_input_mode": "time_desc_frame",
+  "user_prompt": "Make it around 15 seconds. Start with the cat coffee art",
+  "raw_understanding_result": {
+    "video_0": {
+      "time": "",
+      "scene/location": "Ice cream vending machine area",
+      "video_duration": 2.51,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": "2.4",
+          "description": "The video begins with a static shot of an ice cream vending machine <JHGF> showcasing multiple flavor options with colorful packaging. Subsequently, a pair of hands enters the frame holding three specific ice cream tubes: a blue tube <XKPL>, a teal tube <MNVZ>, and a purple tube <QWRT>. The hands hold the items steadily for display against the backdrop of the machine. No facial expressions are visible as only hands are shown."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/MV_20250315_145259.mp4"
+    },
+    "video_1": {
+      "time": "Indeterminate",
+      "scene/location": "Airport terminal or transportation hub hall",
+      "video_duration": 2.3,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "The clip starts with a shot of a shiny gray tiled floor with light reflections. Then, two pairs of hands enter the frame holding red Chinese passports <XKMP> and white boarding passes <WLNT>. The documents are held steady for display against the background of the public hall. The passports feature gold emblems and text."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250315_055521.mp4"
+    },
+    "video_2": {
+      "time": "Indeterminate",
+      "scene/location": "Kitchen shelf and dining table",
+      "video_duration": 2.77,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": "2.7",
+          "description": "The video begins with a view of a wooden shelf holding various spice jars and containers. Then hands appear holding three glasses containing iced beverages: a yellow drink <HMWQ>, a dark liquid <PLKJ>, and a brownish drink <ZQRT>. The hands move the glasses together to clink in a toast."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_134505.mp4"
+    },
+    "video_3": {
+      "time": "Daytime",
+      "scene/location": "Traditional temple courtyard, red wooden pavilion.",
+      "video_duration": 3.0,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": "2.9",
+          "description": "The scene opens with a view from a red wooden pavilion overlooking a temple courtyard with a green umbrella structure. Hands enter the frame holding three rectangular papers <XKPL>, <MZQW>, <RTYU> with printed text, displaying them against the background. A child in a dark jacket stands to the right. The camera remains relatively static with minor adjustments to frame the papers."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_150304.mp4"
+    },
+    "video_4": {
+      "time": "Not specified",
+      "scene/location": "Indoor wooden table",
+      "video_duration": 3.9,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": "3.8",
+          "description": "The video starts with a plain white wall and wooden floor. Three white cups <XQZR> with dog-shaped latte art featuring smiling expressions are revealed on white saucers. A hand briefly touches a silver spoon <KPLM> beside the middle cup. The shot remains static on the three beverages."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_170056.mp4"
+    },
+    "video_5": {
+      "time": "",
+      "scene/location": "Indoor dining table",
+      "video_duration": 3.13,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": "3.0",
+          "description": "The scene opens on a dark wooden table featuring a black plate with cabbage salad <LKJH> and a brown paper bag in the background. Chopsticks rest on a white side plate. Subsequently, hands enter the frame holding three beverages: a ceramic cup containing green liquid <HJKL>, a glass with orange juice and ice <MNBV>, and a glass with a white beverage <POIU>. The hands move the drinks towards the center to clink glasses for a toast above the food. No facial expressions are visible."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_202917.mp4"
+    },
+    "video_6": {
+      "time": "",
+      "scene/location": "Indoor restaurant, BBQ table",
+      "video_duration": 2.27,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "The video shows a close-up of a dining table featuring a BBQ grill <ZYLN> with cooking meat. Individuals are holding beverage containers, specifically a large beer glass <XKMP> with SUPER DRY branding and another glass <QWRT> filled with amber liquid. They raise the glasses to clink in a toast. The person in the red jacket shows a subtle smile during the action."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250318_142943.mp4"
+    }
+  },
+  "arrange_keyframe_limit_info": {
+    "enabled": false,
+    "model_name": "qwen-3.5-plus",
+    "max_keyframes": 120,
+    "total_segments": 7,
+    "selected_segments": 7,
+    "dropped_segments": 0,
+    "selected_by_video": {
+      "video_0": [
+        {
+          "video_id": "video_0",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": 2.4
+        }
+      ],
+      "video_1": [
+        {
+          "video_id": "video_1",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ],
+      "video_2": [
+        {
+          "video_id": "video_2",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": 2.7
+        }
+      ],
+      "video_3": [
+        {
+          "video_id": "video_3",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": 2.9
+        }
+      ],
+      "video_4": [
+        {
+          "video_id": "video_4",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": 3.8
+        }
+      ],
+      "video_5": [
+        {
+          "video_id": "video_5",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": 3.0
+        }
+      ],
+      "video_6": [
+        {
+          "video_id": "video_6",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ]
+    },
+    "dropped_by_video": {}
+  },
+  "get_arrange_result": {
+    "model_name": "qwen-3.5-plus",
+    "arrange_input_mode": "time_desc_frame",
+    "gemini_expected_duration": null,
+    "final_duration": 15.0,
+    "predict_sort_answer": [
+      "video_4",
+      "video_2",
+      "video_5",
+      "video_6",
+      "video_3",
+      "video_0",
+      "video_1"
+    ],
+    "arrange_result": {
+      "tag": "Life Vlog - Travel/Food",
+      "theme": "A travel vlog highlighting food, drinks, and sightseeing spots through a consistent visual motif of holding three items or drinks.",
+      "sort": {
+        "analysis": "User instruction prioritizes 'cat coffee art' (video_4) as the start. To minimize scene switching (Instruction 3_3.c), indoor food/drink clips (video_4, 2, 5, 6) are grouped together. Outdoor/sightseeing clips (video_3, 0) follow, and the airport transit clip (video_1) is placed last to separate distinct location types.",
+        "result": [
+          "video_4",
+          "video_2",
+          "video_5",
+          "video_6",
+          "video_3",
+          "video_0",
+          "video_1"
+        ]
+      },
+      "storyline": "Opening with cute cat latte art to hook viewers, the video transitions through various drink toasts and meals, then moves to outdoor sightseeing spots like a temple and ice cream stand, concluding with airport travel documents to frame the journey.",
+      "arrange_results": [
+        {
+          "video_id": "video_4",
+          "summary": "Three cups of coffee with cat-shaped latte art are displayed on a wooden table.",
+          "visual_redundancy_analysis": "Only one visual segment exists covering the main action; no internal redundancy to remove.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.8,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": 3.8
+        },
+        {
+          "video_id": "video_2",
+          "summary": "Hands hold three glasses of iced beverages and clink them together in a kitchen setting.",
+          "visual_redundancy_analysis": "Single segment captures the toast action; retained as is.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.7,
+              "duration": 2.7
+            }
+          ],
+          "arrange_duration": 2.7
+        },
+        {
+          "video_id": "video_5",
+          "summary": "Three beverages are toasted above a plate of salad on a dining table.",
+          "visual_redundancy_analysis": "Single segment contains the key toast moment; no deletion needed.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.0,
+              "duration": 3.0
+            }
+          ],
+          "arrange_duration": 3.0
+        },
+        {
+          "video_id": "video_6",
+          "summary": "Beer glasses are clinked in a toast at a BBQ restaurant table.",
+          "visual_redundancy_analysis": "Single segment shows the toast; retained for continuity.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        },
+        {
+          "video_id": "video_3",
+          "summary": "Three printed papers are displayed against the backdrop of a traditional temple courtyard.",
+          "visual_redundancy_analysis": "Single segment displays the items clearly; no redundancy.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.9,
+              "duration": 2.9
+            }
+          ],
+          "arrange_duration": 2.9
+        },
+        {
+          "video_id": "video_0",
+          "summary": "Three ice cream tubes are held up in front of a colorful vending machine.",
+          "visual_redundancy_analysis": "Single segment showcases the products; retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.4,
+              "duration": 2.4
+            }
+          ],
+          "arrange_duration": 2.4
+        },
+        {
+          "video_id": "video_1",
+          "summary": "Two pairs of hands hold red passports and boarding passes in an airport terminal.",
+          "visual_redundancy_analysis": "Single segment captures the travel documents; no deletion.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        }
+      ],
+      "duration_adjustment": {
+        "target_duration": 15.0,
+        "current_duration": 19.2,
+        "scale_ratio": 0.781,
+        "analysis": "Shortened all segments proportionally around their midpoints to meet the 15-second target while preserving the central action of each clip.",
+        "adjusted_arrange_results": [
+          {
+            "video_id": "video_4",
+            "adjusted_segments": [
+              {
+                "start_time": 0.4,
+                "end_time": 3.4,
+                "duration": 3.0
+              }
+            ],
+            "adjusted_duration": 3.0
+          },
+          {
+            "video_id": "video_2",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.4,
+                "duration": 2.1
+              }
+            ],
+            "adjusted_duration": 2.1
+          },
+          {
+            "video_id": "video_5",
+            "adjusted_segments": [
+              {
+                "start_time": 0.4,
+                "end_time": 2.7,
+                "duration": 2.3
+              }
+            ],
+            "adjusted_duration": 2.3
+          },
+          {
+            "video_id": "video_6",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.0,
+                "duration": 1.7
+              }
+            ],
+            "adjusted_duration": 1.7
+          },
+          {
+            "video_id": "video_3",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.6,
+                "duration": 2.3
+              }
+            ],
+            "adjusted_duration": 2.3
+          },
+          {
+            "video_id": "video_0",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.2,
+                "duration": 1.9
+              }
+            ],
+            "adjusted_duration": 1.9
+          },
+          {
+            "video_id": "video_1",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.0,
+                "duration": 1.7
+              }
+            ],
+            "adjusted_duration": 1.7
+          }
+        ],
+        "adjusted_total_duration": 15.0
+      }
+    }
+  }
+}

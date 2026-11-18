@@ -1,0 +1,403 @@
+{
+  "entry": "batch2_1.json",
+  "tools": [
+    "get_arrange_result"
+  ],
+  "model_name_by_tool": {
+    "get_arrange_result": "qwen-3.7-plus"
+  },
+  "arrange_input_mode": "time_desc_frame",
+  "user_prompt": "Make it around 15 seconds. Start with the cat coffee art",
+  "raw_understanding_result": {
+    "video_0": {
+      "time": "",
+      "scene/location": "In front of an ice cream vending machine",
+      "video_duration": 2.51,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": "2.4",
+          "description": "The video begins with a shot of an ice cream vending machine displaying various products. Then, three hands appear holding a blue ice cream cone <AZBY>, a teal ice cream cone <CXDW>, and a purple ice cream cone <EVFU> in front of the machine."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/MV_20250315_145259.mp4"
+    },
+    "video_1": {
+      "time": "",
+      "scene/location": "Airport or station hall.",
+      "video_duration": 2.3,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "The video starts with a shot of a polished grey marble floor with ceiling light reflections. Then, the scene shows hands holding dark red Chinese passports <PSPR> and white boarding passes <TKTS>. The background reveals a hall with pillars. One person wears a white fluffy sleeve and another wears a dark coat with a green cuff."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250315_055521.mp4"
+    },
+    "video_2": {
+      "time": "",
+      "scene/location": "Indoor, in front of a shelf with spices.",
+      "video_duration": 2.77,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": "2.7",
+          "description": "The video starts with a static shot of a wooden shelf holding various spice jars and a small wooden drawer box. Then, hands enter the frame holding glass mugs. One hand holds a mug filled with yellow liquid and ice <XKPL>, and another hand holds a mug with dark liquid <QZWS>. A third mug with brownish liquid <EDCR> is also visible as the hands bring the mugs together to clink them in a celebratory toast."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_134505.mp4"
+    },
+    "video_3": {
+      "time": "Daytime (overcast).",
+      "scene/location": "Balcony of a traditional red temple, green pavilion in the background.",
+      "video_duration": 3.0,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": "2.9",
+          "description": "The video begins with a view from a red wooden balcony of a traditional temple, looking out at a green pavilion and other buildings in the distance on a cloudy day. Hands enter the frame holding fortune slips<ZKJM> with text on them, displaying them to the camera."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_150304.mp4"
+    },
+    "video_4": {
+      "time": "",
+      "scene/location": "Indoor setting, wooden table, white wall background.",
+      "video_duration": 3.9,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": "3.8",
+          "description": "The video begins with a view of a white wall and a wooden table surface. Three glass cups<CUPA> filled with coffee and topped with detailed 3D animal-shaped foam art (resembling fluffy dogs) are revealed, sitting on white saucers with metal spoons<SPOO>. A hand briefly enters the frame to adjust the spoon of the middle cup. The scene is static after the items are fully visible."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_170056.mp4"
+    },
+    "video_5": {
+      "time": "Night",
+      "scene/location": "Dining table",
+      "video_duration": 3.13,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": "3.0",
+          "description": "The video starts with a static shot of a dark wooden table featuring a plate of cabbage salad with dressing, a pair of wooden chopsticks, and a small white plate. Then, three hands bring drinks together for a toast. One hand holds a ceramic cup with green matcha<MTCH>, another holds a glass with white milk<MLKC>, and the third holds a glass with orange juice and ice<ORJC>. The camera focuses on the clinking action."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_202917.mp4"
+    },
+    "video_6": {
+      "time": "",
+      "scene/location": "Restaurant / BBQ restaurant.",
+      "video_duration": 2.27,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "The scene opens with a table setting featuring a round metal grill with grilling meat and a wooden tray with side dishes. Then, a person wearing a red jacket and others raise their glasses for a toast. The glasses include a large yellow beer mug labeled 'DRY' <XJQZ>, a dark beer mug with foam <BWLM>, and a glass of orange beverage <KRTS>. The person in the red jacket appears to be smiling slightly while holding the drinks."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250318_142943.mp4"
+    }
+  },
+  "arrange_keyframe_limit_info": {
+    "enabled": false,
+    "model_name": "qwen-3.7-plus",
+    "max_keyframes": 120,
+    "total_segments": 7,
+    "selected_segments": 7,
+    "dropped_segments": 0,
+    "selected_by_video": {
+      "video_0": [
+        {
+          "video_id": "video_0",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": 2.4
+        }
+      ],
+      "video_1": [
+        {
+          "video_id": "video_1",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ],
+      "video_2": [
+        {
+          "video_id": "video_2",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": 2.7
+        }
+      ],
+      "video_3": [
+        {
+          "video_id": "video_3",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": 2.9
+        }
+      ],
+      "video_4": [
+        {
+          "video_id": "video_4",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": 3.8
+        }
+      ],
+      "video_5": [
+        {
+          "video_id": "video_5",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": 3.0
+        }
+      ],
+      "video_6": [
+        {
+          "video_id": "video_6",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ]
+    },
+    "dropped_by_video": {}
+  },
+  "get_arrange_result": {
+    "model_name": "qwen-3.7-plus",
+    "arrange_input_mode": "time_desc_frame",
+    "gemini_expected_duration": null,
+    "final_duration": 15.0,
+    "predict_sort_answer": [
+      "video_4",
+      "video_2",
+      "video_5",
+      "video_6",
+      "video_0",
+      "video_3",
+      "video_1"
+    ],
+    "arrange_result": {
+      "tag": "生活vlog-旅游美食",
+      "theme": "以猫咪拉花咖啡开启旅程，与朋友共享美食饮品，游览寺庙并最终在机场结束的美好旅行记录。",
+      "sort": {
+        "analysis": "用户指令要求以cat coffee art(video_4)开始，因此将其排在首位。其余视频按照场景相近原则进行排序：将室内餐饮场景(video_2, video_5, video_6)集中排列，随后是街头/室内小吃(video_0)，接着是户外景点(video_3)，最后以交通枢纽(video_1)作为旅程的收尾。",
+        "result": [
+          "video_4",
+          "video_2",
+          "video_5",
+          "video_6",
+          "video_0",
+          "video_3",
+          "video_1"
+        ]
+      },
+      "storyline": "视频以一杯精致的猫咪拉花咖啡开启，随后镜头切换至室内与朋友碰杯共享特色饮品和烤肉大餐，接着品尝冰淇淋，前往传统寺庙祈福求签，最后在机场手持护照和登机牌结束这段愉快的旅程。",
+      "arrange_results": [
+        {
+          "video_id": "video_4",
+          "summary": "展示三杯带有精致3D动物形状拉花的咖啡。",
+          "visual_redundancy_analysis": "仅有一个视觉片段，无冗余，直接保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.8,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": 3.8
+        },
+        {
+          "video_id": "video_2",
+          "summary": "在室内香料架前，朋友们举起装有不同颜色饮料的玻璃杯碰杯。",
+          "visual_redundancy_analysis": "仅有一个视觉片段，无冗余，直接保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.7,
+              "duration": 2.7
+            }
+          ],
+          "arrange_duration": 2.7
+        },
+        {
+          "video_id": "video_5",
+          "summary": "夜晚在餐桌前，朋友们举起抹茶、牛奶和橙汁进行碰杯。",
+          "visual_redundancy_analysis": "仅有一个视觉片段，无冗余，直接保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.0,
+              "duration": 3.0
+            }
+          ],
+          "arrange_duration": 3.0
+        },
+        {
+          "video_id": "video_6",
+          "summary": "在烤肉餐厅，朋友们举起啤酒和饮料碰杯庆祝。",
+          "visual_redundancy_analysis": "仅有一个视觉片段，无冗余，直接保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        },
+        {
+          "video_id": "video_0",
+          "summary": "在冰淇淋售卖机前，展示三款不同颜色的冰淇淋甜筒。",
+          "visual_redundancy_analysis": "仅有一个视觉片段，无冗余，直接保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.4,
+              "duration": 2.4
+            }
+          ],
+          "arrange_duration": 2.4
+        },
+        {
+          "video_id": "video_3",
+          "summary": "在传统寺庙的红色阳台上，展示求得的签文。",
+          "visual_redundancy_analysis": "仅有一个视觉片段，无冗余，直接保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.9,
+              "duration": 2.9
+            }
+          ],
+          "arrange_duration": 2.9
+        },
+        {
+          "video_id": "video_1",
+          "summary": "在机场或车站大厅，展示手中的护照和登机牌。",
+          "visual_redundancy_analysis": "仅有一个视觉片段，无冗余，直接保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        }
+      ],
+      "duration_adjustment": {
+        "target_duration": 15.0,
+        "current_duration": 19.2,
+        "scale_ratio": 0.781,
+        "analysis": "目标时长为15秒，当前总时长为19.2秒，缩放比例为0.781。采用以片段中点为基准的裁剪策略对每个片段进行等比例缩短，所有片段均可在原始视频时长范围内完成裁剪，无约束冲突。",
+        "adjusted_arrange_results": [
+          {
+            "video_id": "video_4",
+            "adjusted_segments": [
+              {
+                "start_time": 0.4,
+                "end_time": 3.4,
+                "duration": 3.0
+              }
+            ],
+            "adjusted_duration": 3.0
+          },
+          {
+            "video_id": "video_2",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.4,
+                "duration": 2.1
+              }
+            ],
+            "adjusted_duration": 2.1
+          },
+          {
+            "video_id": "video_5",
+            "adjusted_segments": [
+              {
+                "start_time": 0.4,
+                "end_time": 2.7,
+                "duration": 2.3
+              }
+            ],
+            "adjusted_duration": 2.3
+          },
+          {
+            "video_id": "video_6",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.0,
+                "duration": 1.7
+              }
+            ],
+            "adjusted_duration": 1.7
+          },
+          {
+            "video_id": "video_0",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.2,
+                "duration": 1.9
+              }
+            ],
+            "adjusted_duration": 1.9
+          },
+          {
+            "video_id": "video_3",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.6,
+                "duration": 2.3
+              }
+            ],
+            "adjusted_duration": 2.3
+          },
+          {
+            "video_id": "video_1",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.0,
+                "duration": 1.7
+              }
+            ],
+            "adjusted_duration": 1.7
+          }
+        ],
+        "adjusted_total_duration": 15.0
+      }
+    }
+  }
+}

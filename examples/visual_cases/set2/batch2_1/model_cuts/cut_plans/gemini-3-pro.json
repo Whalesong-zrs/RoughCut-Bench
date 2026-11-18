@@ -1,0 +1,403 @@
+{
+  "entry": "batch2_1.json",
+  "tools": [
+    "get_arrange_result"
+  ],
+  "model_name_by_tool": {
+    "get_arrange_result": "gemini-3-pro"
+  },
+  "arrange_input_mode": "time_desc_frame",
+  "user_prompt": "Make it around 15 seconds. Start with the cat coffee art",
+  "raw_understanding_result": {
+    "video_0": {
+      "time": "",
+      "scene/location": "In front of an ice cream vending machine",
+      "video_duration": 2.51,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": "2.4",
+          "description": "The scene opens on a 'seventeen ice' brand vending machine. Then, two people's hands enter the frame, holding up three different ice cream cones for display: a blue Oreo-branded cone<WXYZ>, a teal cone<RSTU>, and a reddish-brown cone<KLMN>. The hands, belonging to two people, hold the cones steady in front of the vending machine."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/MV_20250315_145259.mp4"
+    },
+    "video_1": {
+      "time": "",
+      "scene/location": "Airport or travel terminal",
+      "video_duration": 2.3,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "The shot starts with a view of a dark, polished tiled floor, then the camera tilts up to show two people's hands holding two red Chinese passports <AETU> with flight tickets <XNZO> inserted. They are holding the passports together in the center of the frame, presumably before a trip. The background appears to be an indoor public space like an airport lobby."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250315_055521.mp4"
+    },
+    "video_2": {
+      "time": "",
+      "scene/location": "Restaurant",
+      "video_duration": 2.77,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": "2.7",
+          "description": "The shot begins focused on condiment jars on a wooden shelf. Then, three hands bring three glass mugs into view. Two mugs contain a yellow, bubbly drink with ice <GLXS>, and one contains a dark, bubbly drink with ice <KLPZ>. The mugs are brought together in a 'cheers' gesture."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_134505.mp4"
+    },
+    "video_3": {
+      "time": "Daytime",
+      "scene/location": "Japanese temple",
+      "video_duration": 3.0,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": "2.9",
+          "description": "The video starts with a view of a Japanese temple courtyard from under a red-roofed structure. Then, three hands enter the frame, each holding up a rectangular paper Japanese fortune slip <QWXZ> with black characters."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_150304.mp4"
+    },
+    "video_4": {
+      "time": "",
+      "scene/location": "On a wooden table.",
+      "video_duration": 3.9,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": "3.8",
+          "description": "The scene begins with a view of a wooden table against a plain wall. Three cups of coffee are then placed onto the table. Each cup is topped with detailed 3D foam art. The leftmost cup features a smiling dog <WXYZ>, and the other two cups feature cats <RTYU>. All three are served on white saucers with small spoons."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_170056.mp4"
+    },
+    "video_5": {
+      "time": "",
+      "scene/location": "Indoor dining setting",
+      "video_duration": 3.13,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": "3.0",
+          "description": "The scene shows a close-up of three hands toasting over a dining table. The hands are holding a ceramic cup of green tea <XQWE>, a glass of orange juice with ice <RTYU>, and another glass with a foamy beverage <POIU>. The individuals' faces are not visible, so there are no discernible expressions. They bring their drinks together in a cheers gesture."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_202917.mp4"
+    },
+    "video_6": {
+      "time": "",
+      "scene/location": "Barbecue restaurant",
+      "video_duration": 2.27,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "The scene shows a table at a barbecue restaurant with a grill and food. Three people raise their glasses, including a glass of orange-colored juice <POPS>, a tall glass of yellow drink <WQXY>, and a mug of beer <RFDA>, to make a toast with happy expressions."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250318_142943.mp4"
+    }
+  },
+  "arrange_keyframe_limit_info": {
+    "enabled": false,
+    "model_name": "gemini-3-pro",
+    "max_keyframes": 120,
+    "total_segments": 7,
+    "selected_segments": 7,
+    "dropped_segments": 0,
+    "selected_by_video": {
+      "video_0": [
+        {
+          "video_id": "video_0",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": 2.4
+        }
+      ],
+      "video_1": [
+        {
+          "video_id": "video_1",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ],
+      "video_2": [
+        {
+          "video_id": "video_2",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": 2.7
+        }
+      ],
+      "video_3": [
+        {
+          "video_id": "video_3",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.9,
+          "duration": 2.9
+        }
+      ],
+      "video_4": [
+        {
+          "video_id": "video_4",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": 3.8
+        }
+      ],
+      "video_5": [
+        {
+          "video_id": "video_5",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": 3.0
+        }
+      ],
+      "video_6": [
+        {
+          "video_id": "video_6",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ]
+    },
+    "dropped_by_video": {}
+  },
+  "get_arrange_result": {
+    "model_name": "gemini-3-pro",
+    "arrange_input_mode": "time_desc_frame",
+    "gemini_expected_duration": null,
+    "final_duration": 15.0,
+    "predict_sort_answer": [
+      "video_4",
+      "video_1",
+      "video_3",
+      "video_0",
+      "video_5",
+      "video_2",
+      "video_6"
+    ],
+    "arrange_result": {
+      "tag": "生活vlog-旅游",
+      "theme": "A highlight reel of a joyful trip with friends, showcasing shared moments of travel and culinary delights in Japan.",
+      "sort": {
+        "analysis": "The user requested to start with the 'cat coffee art' video (video_4). The remaining videos are arranged to create a logical travel story: the start of the journey (video_1: passports), a daytime activity (video_3: temple), a snack (video_0: ice cream), and finally a sequence of toasts from different meals (video_5, video_2, video_6) to conclude the day.",
+        "result": [
+          "video_4",
+          "video_1",
+          "video_3",
+          "video_0",
+          "video_5",
+          "video_2",
+          "video_6"
+        ]
+      },
+      "storyline": "The video opens with a beautiful shot of 3D coffee art, then flashes back to the beginning of the trip at the airport. It follows the friends' journey to a Japanese temple for fortune telling, enjoying ice cream from a vending machine, and concludes with a montage of them toasting drinks together across various dining settings.",
+      "arrange_results": [
+        {
+          "video_id": "video_4",
+          "summary": "Three cups of coffee with detailed 3D animal foam art are placed on a table.",
+          "visual_redundancy_analysis": "Only one visual segment is available, so it will be retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.8,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": 3.8
+        },
+        {
+          "video_id": "video_1",
+          "summary": "Two people hold up their passports and flight tickets, presumably at an airport.",
+          "visual_redundancy_analysis": "Only one visual segment is available, so it will be retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        },
+        {
+          "video_id": "video_3",
+          "summary": "Three people display their Japanese paper fortune slips at a temple.",
+          "visual_redundancy_analysis": "Only one visual segment is available, so it will be retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.9,
+              "duration": 2.9
+            }
+          ],
+          "arrange_duration": 2.9
+        },
+        {
+          "video_id": "video_0",
+          "summary": "Three different ice cream cones are held up for display in front of a vending machine.",
+          "visual_redundancy_analysis": "Only one visual segment is available, so it will be retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.4,
+              "duration": 2.4
+            }
+          ],
+          "arrange_duration": 2.4
+        },
+        {
+          "video_id": "video_5",
+          "summary": "Three people make a toast with different drinks in an indoor dining setting.",
+          "visual_redundancy_analysis": "Only one visual segment is available, so it will be retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.0,
+              "duration": 3.0
+            }
+          ],
+          "arrange_duration": 3.0
+        },
+        {
+          "video_id": "video_2",
+          "summary": "Three people toast with glass mugs of iced drinks at a bar.",
+          "visual_redundancy_analysis": "Only one visual segment is available, so it will be retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.7,
+              "duration": 2.7
+            }
+          ],
+          "arrange_duration": 2.7
+        },
+        {
+          "video_id": "video_6",
+          "summary": "At a barbecue restaurant, three people toast with their drinks over the grill.",
+          "visual_redundancy_analysis": "Only one visual segment is available, so it will be retained.",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        }
+      ],
+      "duration_adjustment": {
+        "target_duration": 15.0,
+        "current_duration": 19.2,
+        "scale_ratio": 0.781,
+        "analysis": "The current total duration of 19.2s exceeds the user's target of around 15s. To meet this requirement, all segments will be proportionally shortened by applying a scale ratio of 0.781. The trimming will be done from both ends, centered on the middle of each original clip.",
+        "adjusted_arrange_results": [
+          {
+            "video_id": "video_4",
+            "adjusted_segments": [
+              {
+                "start_time": 0.4,
+                "end_time": 3.4,
+                "duration": 3.0
+              }
+            ],
+            "adjusted_duration": 3.0
+          },
+          {
+            "video_id": "video_1",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.0,
+                "duration": 1.7
+              }
+            ],
+            "adjusted_duration": 1.7
+          },
+          {
+            "video_id": "video_3",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.6,
+                "duration": 2.3
+              }
+            ],
+            "adjusted_duration": 2.3
+          },
+          {
+            "video_id": "video_0",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.2,
+                "duration": 1.9
+              }
+            ],
+            "adjusted_duration": 1.9
+          },
+          {
+            "video_id": "video_5",
+            "adjusted_segments": [
+              {
+                "start_time": 0.4,
+                "end_time": 2.7,
+                "duration": 2.3
+              }
+            ],
+            "adjusted_duration": 2.3
+          },
+          {
+            "video_id": "video_2",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.4,
+                "duration": 2.1
+              }
+            ],
+            "adjusted_duration": 2.1
+          },
+          {
+            "video_id": "video_6",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.0,
+                "duration": 1.7
+              }
+            ],
+            "adjusted_duration": 1.7
+          }
+        ],
+        "adjusted_total_duration": 15.0
+      }
+    }
+  }
+}

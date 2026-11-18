@@ -1,0 +1,17 @@
+model	set_name	cut_plan_dir
+gemini-2.5-pro	set1	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/gemini-2.5-pro/visual_workflow/cut_planning/v33/test1/set1/cut_plans
+gemini-2.5-pro	set2	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/gemini-2.5-pro/visual_workflow/cut_planning/v33/test1/set2/cut_plans
+gemini-3-pro	set1	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/gemini-3-pro/visual_workflow/cut_planning/v33/test1/set1/cut_plans
+gemini-3-pro	set2	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/gemini-3-pro/visual_workflow/cut_planning/v33/test1/set2/cut_plans
+gpt-5.4	set1	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/gpt-5.4/visual_workflow/cut_planning/v33/test1/set1/cut_plans
+gpt-5.4	set2	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/gpt-5.4/visual_workflow/cut_planning/v33/test1/set2/cut_plans
+gpt-5.5	set1	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/gpt-5.5/visual_workflow/cut_planning/v33/test1/set1/cut_plans
+gpt-5.5	set2	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/gpt-5.5/visual_workflow/cut_planning/v33/test1/set2/cut_plans
+qwen-3.5-plus	set1	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/qwen-3.5-plus/visual_workflow/cut_planning/v33/test1/set1/cut_plans
+qwen-3.5-plus	set2	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/qwen-3.5-plus/visual_workflow/cut_planning/v33/test1/set2/cut_plans
+qwen-3.7-plus	set1	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/qwen-3.7-plus/visual_workflow/cut_planning/v33/test1/set1/cut_plans
+qwen-3.7-plus	set2	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/qwen-3.7-plus/visual_workflow/cut_planning/v33/test1/set2/cut_plans
+glm-5v-turbo	set1	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/glm-5v-turbo/visual_workflow/cut_planning/v33/test1/set1/cut_plans
+glm-5v-turbo	set2	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/glm-5v-turbo/visual_workflow/cut_planning/v33/test1/set2/cut_plans
+seed-2.0-lite	set1	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/seed-2.0-lite/visual_workflow/cut_planning/v33/test1/set1/cut_plans
+seed-2.0-lite	set2	${ROUGHCUT_OUTPUT_ROOT}/vlm_comparison/seed-2.0-lite/visual_workflow/cut_planning/v33/test1/set2/cut_plans

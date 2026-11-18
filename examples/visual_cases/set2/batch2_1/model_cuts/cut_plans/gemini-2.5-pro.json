@@ -1,0 +1,403 @@
+{
+  "entry": "batch2_1.json",
+  "tools": [
+    "get_arrange_result"
+  ],
+  "model_name_by_tool": {
+    "get_arrange_result": "gemini-2.5-pro"
+  },
+  "arrange_input_mode": "time_desc_frame",
+  "user_prompt": "Make it around 15 seconds. Start with the cat coffee art",
+  "raw_understanding_result": {
+    "video_0": {
+      "time": "",
+      "scene/location": "In front of an ice cream vending machine",
+      "video_duration": 2.51,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": "2.4",
+          "description": "The shot begins with a view of a 'Seventeen' ice cream vending machine. Then, two hands enter the frame, holding up three different ice cream cones: a blue Oreo-branded cone<POPS>, a green cone<KLIU>, and a reddish-brown cone<MVDS>. The hands hold the cones steady for display against the backdrop of the vending machine."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/MV_20250315_145259.mp4"
+    },
+    "video_1": {
+      "time": "Daytime",
+      "scene/location": "Indoors, possibly an airport or a train station",
+      "video_duration": 2.3,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "The camera starts with a low-angle shot of a reflective tiled floor, then pans up to show two people's hands. Each hand is holding a red Chinese passport with a ticket inside <XPYT>. The people, whose expressions are not visible, bring the two passports <XPYT> together. The background appears to be a brightly lit indoor public space."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250315_055521.mp4"
+    },
+    "video_2": {
+      "time": "",
+      "scene/location": "Restaurant",
+      "video_duration": 2.77,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": "2.7",
+          "description": "The scene shows a close-up of three glass mugs being brought together for a toast. Two mugs contain a yellow bubbly drink with ice <POPS: QWPL>, and one mug contains a dark carbonated beverage <POPS: MNBV>. The action takes place in front of wooden shelves holding various condiment jars."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_134505.mp4"
+    },
+    "video_3": {
+      "time": "Daytime",
+      "scene/location": "Japanese temple",
+      "video_duration": 3.0,
+      "visual_segments": [
+        {
+          "start_time": 1.0,
+          "end_time": 2.9,
+          "duration": "1.9",
+          "description": "From a high-angle perspective on a balcony, three hands are holding up three rectangular paper fortunes with Japanese writing <XKYW>. The background shows the architecture of a Japanese temple on a cloudy day, with other people visible in the distance."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_150304.mp4"
+    },
+    "video_4": {
+      "time": "",
+      "scene/location": "Indoors",
+      "video_duration": 3.9,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": "3.8",
+          "description": "The shot reveals three cups of coffee on a wooden table. Each cup is topped with 3D foam art. On the left is a smiling dog-shaped latte art <XKYZ>, and to the right are two cat-shaped latte arts <WJVT>."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_170056.mp4"
+    },
+    "video_5": {
+      "time": "",
+      "scene/location": "Indoors, at a table",
+      "video_duration": 3.13,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": "3.0",
+          "description": "The scene begins with a view of a plate of salad on a wooden table. The camera then moves to capture three hands coming together for a toast. One hand holds a glass of yellow juice with ice<XQWE>, another holds a ceramic cup of green matcha tea<RTZU>, and the third holds a glass of a beverage with white foam, possibly beer<PASD>. The people's expressions are not visible."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250316_202917.mp4"
+    },
+    "video_6": {
+      "time": "Night",
+      "scene/location": "Restaurant",
+      "video_duration": 2.27,
+      "visual_segments": [
+        {
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": "2.2",
+          "description": "A close-up shot shows three people at a restaurant table raising their glasses for a toast. The glasses contain a yellow drink in a 'Super Dry' branded glass<ZPWX>, a glass of beer<VCBN>, and an orange-colored drink<RTYU>. On the table, there is a grill with meat cooking and other side dishes. The people's expressions are neutral as they perform the action."
+        }
+      ],
+      "asr_segments": [],
+      "video_name": "source_videos/video_20250318_142943.mp4"
+    }
+  },
+  "arrange_keyframe_limit_info": {
+    "enabled": false,
+    "model_name": "gemini-2.5-pro",
+    "max_keyframes": 120,
+    "total_segments": 7,
+    "selected_segments": 7,
+    "dropped_segments": 0,
+    "selected_by_video": {
+      "video_0": [
+        {
+          "video_id": "video_0",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.4,
+          "duration": 2.4
+        }
+      ],
+      "video_1": [
+        {
+          "video_id": "video_1",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ],
+      "video_2": [
+        {
+          "video_id": "video_2",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.7,
+          "duration": 2.7
+        }
+      ],
+      "video_3": [
+        {
+          "video_id": "video_3",
+          "segment_index": 0,
+          "start_time": 1.0,
+          "end_time": 2.9,
+          "duration": 1.9
+        }
+      ],
+      "video_4": [
+        {
+          "video_id": "video_4",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.8,
+          "duration": 3.8
+        }
+      ],
+      "video_5": [
+        {
+          "video_id": "video_5",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 3.0,
+          "duration": 3.0
+        }
+      ],
+      "video_6": [
+        {
+          "video_id": "video_6",
+          "segment_index": 0,
+          "start_time": 0.0,
+          "end_time": 2.2,
+          "duration": 2.2
+        }
+      ]
+    },
+    "dropped_by_video": {}
+  },
+  "get_arrange_result": {
+    "model_name": "gemini-2.5-pro",
+    "arrange_input_mode": "time_desc_frame",
+    "gemini_expected_duration": null,
+    "final_duration": 15.0,
+    "predict_sort_answer": [
+      "video_4",
+      "video_1",
+      "video_3",
+      "video_0",
+      "video_5",
+      "video_2",
+      "video_6"
+    ],
+    "arrange_result": {
+      "tag": "生活vlog-旅游",
+      "theme": "记录三人日本之旅中品尝美食、游览景点的快乐瞬间。",
+      "sort": {
+        "analysis": "根据用户指令，以video_4（猫咪咖啡拉花）作为开场。接着展示video_1（护照）点明旅途的开启，然后按照“游览景点（video_3）-品尝小吃（video_0）-聚餐（video_5, video_2, video_6）”的逻辑串联起旅行中的各种体验，并根据场景内容（白天用餐、夜间烤肉）将聚餐场景按时间顺序排列。",
+        "result": [
+          "video_4",
+          "video_1",
+          "video_3",
+          "video_0",
+          "video_5",
+          "video_2",
+          "video_6"
+        ]
+      },
+      "storyline": "视频以一杯可爱的猫咪拉花咖啡作为吸睛开场，随即切换到手持护照的画面，点明这是一场旅行。接着，镜头记录了旅途中的精彩片段：在寺庙求签，在街边品尝自动贩卖机的冰淇淋，以及在不同餐厅享受美食、开心碰杯的时刻，从白天持续到夜晚，充满了欢乐的氛围。",
+      "arrange_results": [
+        {
+          "video_id": "video_4",
+          "summary": "展示了三杯带有可爱的猫和狗立体拉花的咖啡。",
+          "visual_redundancy_analysis": "该视频仅包含一个视觉片段，无冗余，予以保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.8,
+              "duration": 3.8
+            }
+          ],
+          "arrange_duration": 3.8
+        },
+        {
+          "video_id": "video_1",
+          "summary": "两人手持护照和机票，暗示旅行的开始。",
+          "visual_redundancy_analysis": "该视频仅包含一个视觉片段，无冗余，予以保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        },
+        {
+          "video_id": "video_3",
+          "summary": "在日本寺庙的背景下，三人展示抽到的签文。",
+          "visual_redundancy_analysis": "该视频仅包含一个视觉片段，无冗余，予以保留。",
+          "segments": [
+            {
+              "start_time": 1.0,
+              "end_time": 2.9,
+              "duration": 1.9
+            }
+          ],
+          "arrange_duration": 1.9
+        },
+        {
+          "video_id": "video_0",
+          "summary": "在冰淇淋自动贩卖机前，展示三种不同的冰淇淋。",
+          "visual_redundancy_analysis": "该视频仅包含一个视觉片段，无冗余，予以保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.4,
+              "duration": 2.4
+            }
+          ],
+          "arrange_duration": 2.4
+        },
+        {
+          "video_id": "video_5",
+          "summary": "三人在餐桌前举杯祝酒，杯中分别是果汁、抹茶和带泡沫的饮料。",
+          "visual_redundancy_analysis": "该视频仅包含一个视觉片段，无冗余，予以保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 3.0,
+              "duration": 3.0
+            }
+          ],
+          "arrange_duration": 3.0
+        },
+        {
+          "video_id": "video_2",
+          "summary": "在餐厅里，三人用装有不同饮料的玻璃杯碰杯。",
+          "visual_redundancy_analysis": "该视频仅包含一个视觉片段，无冗余，予以保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.7,
+              "duration": 2.7
+            }
+          ],
+          "arrange_duration": 2.7
+        },
+        {
+          "video_id": "video_6",
+          "summary": "在烤肉餐厅的夜晚，三人举杯庆祝。",
+          "visual_redundancy_analysis": "该视频仅包含一个视觉片段，无冗余，予以保留。",
+          "segments": [
+            {
+              "start_time": 0.0,
+              "end_time": 2.2,
+              "duration": 2.2
+            }
+          ],
+          "arrange_duration": 2.2
+        }
+      ],
+      "duration_adjustment": {
+        "target_duration": 15.0,
+        "current_duration": 18.2,
+        "scale_ratio": 0.824,
+        "analysis": "根据用户指令将成片时长调整至15秒左右。当前总时长为18.2秒，目标时长为15.0秒，需要对所有片段进行缩短。采用中心裁剪的方式，按比例缩短每个片段以保留核心内容。",
+        "adjusted_arrange_results": [
+          {
+            "video_id": "video_4",
+            "adjusted_segments": [
+              {
+                "start_time": 0.4,
+                "end_time": 3.5,
+                "duration": 3.1
+              }
+            ],
+            "adjusted_duration": 3.1
+          },
+          {
+            "video_id": "video_1",
+            "adjusted_segments": [
+              {
+                "start_time": 0.2,
+                "end_time": 2.0,
+                "duration": 1.8
+              }
+            ],
+            "adjusted_duration": 1.8
+          },
+          {
+            "video_id": "video_3",
+            "adjusted_segments": [
+              {
+                "start_time": 1.2,
+                "end_time": 2.8,
+                "duration": 1.6
+              }
+            ],
+            "adjusted_duration": 1.6
+          },
+          {
+            "video_id": "video_0",
+            "adjusted_segments": [
+              {
+                "start_time": 0.2,
+                "end_time": 2.2,
+                "duration": 2.0
+              }
+            ],
+            "adjusted_duration": 2.0
+          },
+          {
+            "video_id": "video_5",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.8,
+                "duration": 2.5
+              }
+            ],
+            "adjusted_duration": 2.5
+          },
+          {
+            "video_id": "video_2",
+            "adjusted_segments": [
+              {
+                "start_time": 0.3,
+                "end_time": 2.5,
+                "duration": 2.2
+              }
+            ],
+            "adjusted_duration": 2.2
+          },
+          {
+            "video_id": "video_6",
+            "adjusted_segments": [
+              {
+                "start_time": 0.2,
+                "end_time": 2.0,
+                "duration": 1.8
+              }
+            ],
+            "adjusted_duration": 1.8
+          }
+        ],
+        "adjusted_total_duration": 15.0
+      }
+    }
+  }
+}
