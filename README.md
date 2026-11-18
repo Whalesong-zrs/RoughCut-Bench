@@ -28,6 +28,10 @@ examples and results on the [project website](https://whalesong-zrs.github.io/Ro
 | Professional highlight annotations | 1,476 |
 | Speech-driven cases | 84 |
 
+<p align="center">
+  <a href="assets/figures/data-analysis.png"><img src="assets/figures/data-analysis.png" width="900" alt="RoughCut-Bench dataset statistics: visual scenario distribution, source-video duration distribution, and counts and span lengths of speech-cleanup annotations."></a>
+</p>
+
 The full benchmark data are distributed separately from this code repository.
 Place the data under `data/`, or set `ROUGHCUT_DATA_ROOT` to another location:
 
