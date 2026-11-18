@@ -61,6 +61,14 @@ PYTHON_BIN=python3.11 VENV_DIR=/path/to/venv ./env_setting.sh
 
 ## Data and Examples
 
+Download the public, ungated dataset from
+[Hugging Face](https://huggingface.co/datasets/zhaors00/RoughCut-Bench) using the
+[README download command](../README.md#-dataset). No login or access approval is
+required. The release contains refined face-blurred visual assets and their
+annotations, plus speech transcripts and annotations; source talking-head videos
+are not included. Preserve the downloaded directory structure and set
+`ROUGHCUT_DATA_ROOT` if you use a location other than the repository's `data/`.
+
 See the [README dataset section](../README.md#-dataset) for the data layout.
 Each visual case groups source videos from one coherent creation scenario.
 The label JSON files contain professional highlight annotations, source-video

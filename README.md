@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="https://whalesong-zrs.github.io/RoughCut-Bench-Project-Page/"><img src="https://img.shields.io/badge/Project-Website-orange?style=flat-square" alt="Project Website"></a>
+  <a href="https://huggingface.co/datasets/zhaors00/RoughCut-Bench"><img src="https://img.shields.io/badge/Hugging_Face-Dataset-yellow?style=flat-square" alt="Dataset"></a>
   <br><br>
   <a href="assets/figures/workflow.png"><img src="assets/figures/workflow.png" width="900" alt="RoughCut-Bench framework: visually driven and speech-driven rough-cut workflows, annotation-based metrics, and human-aligned agentic evaluation."></a>
 </p>
@@ -24,7 +25,7 @@ examples and results on the [project website](https://whalesong-zrs.github.io/Ro
 | Component | Size |
 | --- | --- |
 | Visual cases | 101: 62 general cases + 39 with user requirements |
-| Source videos | 831 |
+| Source media | 831: 810 videos + 21 images |
 | Professional highlight annotations | 1,476 |
 | Speech-driven cases | 84 |
 
@@ -32,8 +33,20 @@ examples and results on the [project website](https://whalesong-zrs.github.io/Ro
   <a href="assets/figures/data-analysis.png"><img src="assets/figures/data-analysis.png" width="900" alt="RoughCut-Bench dataset statistics: visual scenario distribution, source-video duration distribution, and counts and span lengths of speech-cleanup annotations."></a>
 </p>
 
-The full benchmark data are distributed separately from this code repository.
-Place the data under `data/`, or set `ROUGHCUT_DATA_ROOT` to another location:
+The benchmark data are publicly available on
+[Hugging Face](https://huggingface.co/datasets/zhaors00/RoughCut-Bench), with no
+login or access approval required. The release includes the refined face-blurred
+visual assets, visual annotations, and speech transcripts and annotations.
+
+After environment setup, download the data under `data/`:
+
+```bash
+pip install -U huggingface_hub
+hf download zhaors00/RoughCut-Bench --repo-type dataset --local-dir ./data
+```
+
+Alternatively, set `ROUGHCUT_DATA_ROOT` to your downloaded dataset directory.
+Preserve the case-based file layout:
 
 ```text
 data/

@@ -132,6 +132,7 @@ used here because the released experiment sends each proxy only once.
 `tests/test_model_api.py` checks the request URL, authentication header,
 provider-specific multimodal payload, generation parameters, usage parsing, and
 text extraction with a mock HTTP transport. It does not make billable network
-requests. Before a public release, run at least one small credentialed case for
-every provider because account entitlements, regional endpoints, and preview
-model availability cannot be verified without provider credentials.
+requests. Before a full benchmark run, run at least one small credentialed case
+for each provider you plan to use because account entitlements, regional
+endpoints, and preview model availability cannot be verified without provider
+credentials.
