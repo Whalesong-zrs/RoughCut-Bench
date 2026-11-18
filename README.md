@@ -2,6 +2,8 @@
 
 <p align="center">
   <a href="https://whalesong-zrs.github.io/RoughCut-Bench-Project-Page/"><img src="https://img.shields.io/badge/Project-Website-orange?style=flat-square" alt="Project Website"></a>
+  <br><br>
+  <a href="assets/figures/workflow.png"><img src="assets/figures/workflow.png" width="900" alt="RoughCut-Bench framework: visually driven and speech-driven rough-cut workflows, annotation-based metrics, and human-aligned agentic evaluation."></a>
 </p>
 
 ### 🌟 Overview
