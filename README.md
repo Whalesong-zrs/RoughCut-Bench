@@ -1,6 +1,7 @@
 ## RoughCut-Bench: A Benchmark for Automatic Video Rough-Cut with Large Vision-Language Models｜KDD 2027
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2611.24098"><img src="https://img.shields.io/badge/arXiv-2611.24098-b31b1b?style=flat-square" alt="Paper on arXiv"></a>
   <a href="https://whalesong-zrs.github.io/RoughCut-Bench-Project-Page/"><img src="https://img.shields.io/badge/Project-Website-orange?style=flat-square" alt="Project Website"></a>
   <a href="https://huggingface.co/datasets/zhaors00/RoughCut-Bench"><img src="https://img.shields.io/badge/Hugging_Face-Dataset-yellow?style=flat-square" alt="Dataset"></a>
   <br><br>
